@@ -26,10 +26,10 @@ ports:
 ports_description:
   9090/tcp: HTTP listen port
 schema:
-  DefaultStore: list(database|filesystem)
   conf_overrides:
   - property: match(^sharry[.]restserver[.][-.a-z0-9]+)
     value: str
+  DefaultStore: list(database|filesystem)
   copy_db: bool?
   copy_db_source: list(database|filesystem)?
   copy_db_target: list(database|filesystem)?
