@@ -1,5 +1,7 @@
 # Frosch Home Assistant Add-ons
 
+[![License][license-shield]](LICENSE)
+
 Un collection d'add-on pour HA faite par Frosch.
 
 ## Installation
@@ -104,6 +106,7 @@ SOFTWARE.
 [add-addon-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [add-repo-shield]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
 [add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A//github.com/erdnaxela02/hassio-addons
+[license-shield]: https://img.shields.io/github/license/erdnaxela02/hassio-addons.svg
 [discord-ha]: https://discord.gg/c5DvZ4e
 [forum]: https://community.home-assistant.io/
 [HACF]: https://forum.hacf.fr/
