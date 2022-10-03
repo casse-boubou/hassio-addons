@@ -34,10 +34,6 @@ Ou sinon vous pouvez copier cet URL et l'ajouter manuellement dans le add-on sto
 [:books: {{ addon.name }} add-on documentation][addon-doc-{{ addon.target }}]
 
 {% endfor %}
-## Changelog & Releases
-
-Vous pouvez consulter le changelog [GitHub ici][releases].
-
 ## Support
 
 Je ne suis pas dévellopeur, n'ai aucune formation de code, je suis simplement autodidact.
@@ -74,7 +70,6 @@ SOFTWARE.
 {% for addon in addons %}
 [addon-{{ addon.target }}]: {{ addon.repo }}/tree/{{ addon.version }}
 [addon-doc-{{ addon.target}}]: {{ addon.repo }}/blob/{{ addon.version }}/README.md
-[{{ addon.target }}-issue]: {{ addon.repo }}/issues
 [{{ addon.target }}-version-shield]: https://img.shields.io/badge/version-{{ addon.version }}-blue.svg
 [add-addon-{{ addon.target }}]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_{{ addon.target }}
 {% for arch in ['aarch64', 'amd64', 'armhf', 'armv7', 'i386'] %}
@@ -91,4 +86,3 @@ SOFTWARE.
 [discord-ha]: https://discord.gg/c5DvZ4e
 [forum]: https://community.home-assistant.io/
 [HACF]: https://forum.hacf.fr/
-[releases]: https://github.com/erdnaxela02/addon-sharry/releases
