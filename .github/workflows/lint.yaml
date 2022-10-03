@@ -1,0 +1,18 @@
+---
+name: Lint
+
+# yamllint disable-line rule:truthy
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+  workflow_dispatch:
+
+jobs:
+  workflows:
+    uses: erdnaxela02/ha-addon-workflows/.github/workflows/repository-lint.yaml@main

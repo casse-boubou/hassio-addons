@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  sharry:
+    repository: erdnaxela02/addon-sharry
+    target: sharry
+    image: ghcr.io/erdnaxela02/sharry/{arch}

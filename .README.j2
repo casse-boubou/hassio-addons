@@ -1,0 +1,94 @@
+# Frosch Home Assistant Add-ons
+
+Un collection d'add-on pour HA faite par Frosch.
+
+## Installation
+
+Clicuez sur le lien suivant et suivez les instructions:
+
+[![Open your Home Assistant instance and show the add add-on repository dialog
+with a specific repository URL pre-filled.][add-repo-shield]][add-repo]
+
+Ou sinon vous pouvez copier cet URL et l'ajouter manuellement dans le add-on store de votre HA:
+
+```txt
+{{ repo }}
+```
+
+## Add-ons disponible
+
+{% for addon in addons %}
+### &#10003; [{{ addon.name }}][addon-{{ addon.target }}]
+
+![Latest Version][{{ addon.target }}-version-shield]
+![Supports armhf Architecture][{{ addon.target }}-armhf-shield]
+![Supports armv7 Architecture][{{ addon.target }}-armv7-shield]
+![Supports aarch64 Architecture][{{ addon.target }}-aarch64-shield]
+![Supports amd64 Architecture][{{ addon.target }}-amd64-shield]
+![Supports i386 Architecture][{{ addon.target }}-i386-shield]
+
+{{ addon.description }}
+
+[![Open your Home Assistant instance and show the dashboard of a Supervisor add-on.][add-addon-shield]][add-addon-{{ addon.target }}]
+
+[:books: {{ addon.name }} add-on documentation][addon-doc-{{ addon.target }}]
+
+{% endfor %}
+## Changelog & Releases
+
+Vous pouvez consulter le changelog [GitHub ici][releases].
+
+## Support
+
+Je ne suis pas dévellopeur, n'ai aucune formation de code, je suis simplement autodidact.
+Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
+
+- [Le Forum communautaire francophone][HACF] de HomeAssistant
+- [Le Forum communautaire anglophone][forum] de HomeAssistant.
+- [Le serveur Discord][discord-ha] de HomeAssistant.
+
+## License
+
+MIT License
+
+Copyright (c) 2022 erdnaxela02
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+{% for addon in addons %}
+[addon-{{ addon.target }}]: {{ addon.repo }}/tree/{{ addon.version }}
+[addon-doc-{{ addon.target}}]: {{ addon.repo }}/blob/{{ addon.version }}/README.md
+[{{ addon.target }}-issue]: {{ addon.repo }}/issues
+[{{ addon.target }}-version-shield]: https://img.shields.io/badge/version-{{ addon.version }}-blue.svg
+[add-addon-{{ addon.target }}]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_{{ addon.target }}
+{% for arch in ['aarch64', 'amd64', 'armhf', 'armv7', 'i386'] %}
+{% if arch in addon.archs %}
+[{{ addon.target }}-{{ arch }}-shield]: https://img.shields.io/badge/{{ arch }}-yes-green.svg
+{% else %}
+[{{ addon.target }}-{{ arch }}-shield]: https://img.shields.io/badge/{{ arch }}-no-red.svg
+{% endif %}
+{% endfor %}
+{% endfor %}
+[add-addon-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[add-repo-shield]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
+[add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url={{ repo | urlencode }}
+[discord-ha]: https://discord.gg/c5DvZ4e
+[forum]: https://community.home-assistant.io/
+[HACF]: https://forum.hacf.fr/
+[releases]: https://github.com/erdnaxela02/addon-sharry/releases
