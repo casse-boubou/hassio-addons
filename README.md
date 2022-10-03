@@ -9,7 +9,8 @@ Clicuez sur le lien suivant et suivez les instructions:
 [![Open your Home Assistant instance and show the add add-on repository dialog
 with a specific repository URL pre-filled.][add-repo-shield]][add-repo]
 
-Ou sinon vous pouvez copier cet URL et l'ajouter manuellement dans le add-on store de votre HA:
+Ou sinon vous pouvez copier cet URL et l'ajouter manuellement dans le
+add-on store de votre HA:
 
 ```txt
 https://github.com/erdnaxela02/hassio-addons
