@@ -82,7 +82,6 @@ SOFTWARE.
 
 [addon-sharry]: https://github.com/erdnaxela02/addon-sharry/tree/v1.0.0
 [addon-doc-sharry]: https://github.com/erdnaxela02/addon-sharry/blob/v1.0.0/README.md
-[sharry-issue]: https://github.com/erdnaxela02/addon-sharry/issues
 [sharry-version-shield]: https://img.shields.io/badge/version-v1.0.0-blue.svg
 [add-addon-sharry]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_sharry
 [sharry-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
@@ -90,9 +89,9 @@ SOFTWARE.
 [sharry-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [sharry-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [sharry-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+
 [addon-sharry-dependency-less]: https://github.com/erdnaxela02/addon-sharry/tree/v1.0.0
 [addon-doc-sharry-dependency-less]: https://github.com/erdnaxela02/addon-sharry/blob/v1.0.0/README.md
-[sharry-dependency-less-issue]: https://github.com/erdnaxela02/addon-sharry/issues
 [sharry-dependency-less-version-shield]: https://img.shields.io/badge/version-v1.0.0-blue.svg
 [add-addon-sharry-dependency-less]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_sharry-dependency-less
 [sharry-dependency-less-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
@@ -100,6 +99,7 @@ SOFTWARE.
 [sharry-dependency-less-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [sharry-dependency-less-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [sharry-dependency-less-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+
 [add-addon-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [add-repo-shield]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
 [add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A//github.com/erdnaxela02/hassio-addons
