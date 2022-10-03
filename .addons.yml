@@ -6,6 +6,6 @@ addons:
     target: sharry
     image: ghcr.io/erdnaxela02/sharry/{arch}
   sharry-dependency-less:
-    repository: erdnaxela02/addon-sharry
+    repository: erdnaxela02/sharry-dependency-less
     target: sharry-dependency-less
     image: ghcr.io/erdnaxela02/sharry-dependency-less/{arch}
