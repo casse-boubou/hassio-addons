@@ -30,6 +30,7 @@ options:
       username: homeassistant
 ports:
   9090/tcp: 9090
+  3306/tcp: null
 ports_description:
   9090/tcp: HTTP listen port
 schema:
