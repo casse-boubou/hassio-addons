@@ -3,7 +3,7 @@ arch:
 - amd64
 auth_api: true
 codenotary: erdnaxela02@hotmail.fr
-description: Sharry pour Home Assistant sans dépendances à Mariadb
+description: Sharry pour Home Assistant sans dependances a Mariadb
 image: ghcr.io/erdnaxela02/sharry-dependency-less/{arch}
 init: false
 map:
@@ -33,6 +33,7 @@ ports:
   3306/tcp: null
 ports_description:
   9090/tcp: HTTP listen port
+  3306/tcp: Mariadb port
 schema:
   conf_overrides:
     - property: match(^sharry[.]restserver[.][-.a-z0-9]+)
@@ -75,7 +76,7 @@ services:
   - mysql:provide
 slug: sharry-dependency-less
 url: https://github.com/erdnaxela02/addon-sharry-dependency-less
-version: 1.0.0
+version: 1.0.1
 watchdog: http://[HOST]:9090/api/v2/open/info/version
 webui: http://[HOST]:[PORT:9090]
 backup_post: s6-svc -wd -d /run/s6/legacy-services/mariadb-lock/
