@@ -2,7 +2,8 @@
 
 [![License][license-shield]](LICENSE)
 
-Un collection d'add-on pour HA faite par Frosch.
+Un collection d'add-on pour HomeAssistant faite par Frosch et développer pour
+Raspberry Pi 4
 
 ## Installation
 
