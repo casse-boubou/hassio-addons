@@ -44,7 +44,7 @@ Sharry pour Home Assistant
 ![Supports amd64 Architecture][sharry-dependency-less-amd64-shield]
 ![Supports i386 Architecture][sharry-dependency-less-i386-shield]
 
-Sharry pour Home Assistant sans dependances a Mariadb
+Sharry pour Home Assistant sans dépendances à Mariadb
 
 [![Open your Home Assistant instance and show the dashboard of a Supervisor add-on.][add-addon-shield]][add-addon-sharry-dependency-less]
 
