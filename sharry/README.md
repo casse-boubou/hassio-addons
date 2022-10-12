@@ -7,6 +7,8 @@
 
 ## About
 
+Ce projet est un fork du projet original de [Mike Degatano][mike-degatano] auquel j'ai rajouter la possibilitée de stocker les fichier directement dans un dossier local ainsi que de copier la base de donnée de Mariadb à un stockage local ou inversement.
+
 Cet add-on permet un partage de fichiers rapidement et facilement.
 Vous glisser et déposez des fichiers et obtenez un lien que vous pouvez partager avec n'importe qui.
 Vous pouvez également créer et partager des liens avec d'autres personnes qu'elles utiliseront pour partager des fichiers avec vous.

@@ -17,8 +17,6 @@ options:
   share_max_size_gb: 1.5
   share_max_valid_days: 365
   theme: light
-  use_local_db: false
-  use_maria_db: false
   use_ssl: false
 ports:
   9090/tcp: 9090
@@ -47,13 +45,11 @@ schema:
   share_max_size_gb: float(0.01,)?
   share_max_valid_days: int(1,)?
   theme: list(light|dark)?
-  use_local_db: bool
-  use_maria_db: bool
   use_ssl: bool?
 services:
 - mysql:want
 slug: sharry
 url: https://github.com/erdnaxela02/addon-sharry
-version: 1.0.0
+version: 1.1.0
 watchdog: http://[HOST]:9090/api/v2/open/info/version
 webui: http://[HOST]:[PORT:9090]
