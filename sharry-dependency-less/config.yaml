@@ -1,6 +1,8 @@
 arch:
 - aarch64
 auth_api: true
+backup_post: s6-svc -wd -d /run/s6/legacy-services/mariadb-lock/
+backup_pre: s6-svc -wU -u /run/s6/legacy-services/mariadb-lock/
 codenotary: erdnaxela02@hotmail.fr
 description: Sharry pour Home Assistant sans dependances a Mariadb
 image: ghcr.io/erdnaxela02/sharry-dependency-less/{arch}
@@ -9,74 +11,67 @@ map:
 - share:rw
 name: Sharry-dependency-less
 options:
-  domain: homeassistant.local
-  use_ssl: false
+  conf_overrides: []
+  databases:
+  - sharry
   default_language: us
+  domain: homeassistant.local
+  log_level: info
+  logins:
+  - password: null
+    username: homeassistant
+  rights:
+  - database: sharry
+    username: homeassistant
   share_max_size_gb: 1.5
   share_max_valid_days: 365
   theme: light
-  log_level: info
-  conf_overrides: []
-  use_maria_db: false
-  use_local_db: false
-  databases:
-    - sharry
-  logins:
-    - password: null
-      username: homeassistant
-  rights:
-    - database: sharry
-      username: homeassistant
+  use_ssl: false
 ports:
-  9090/tcp: 9090
   3306/tcp: null
+  9090/tcp: 9090
 ports_description:
-  9090/tcp: HTTP listen port
   3306/tcp: Mariadb port
+  9090/tcp: HTTP listen port
 schema:
-  conf_overrides:
-    - property: match(^sharry[.]restserver[.][-.a-z0-9]+)
-      value: str
   DefaultStore: list(database|filesystem)
-  use_maria_db: bool
-  remote_db_type: list(mariadb|postgres)?
-  remote_db_host: str?
-  remote_db_port: port?
-  remote_db_username: str?
-  remote_db_password: password?
-  remote_db_database: str?
-  use_local_db: bool
-  local_db: str?
+  conf_overrides:
+  - property: match(^sharry[.]restserver[.][-.a-z0-9]+)
+    value: str
   copy_db: bool?
   copy_db_source: list(database|filesystem)?
   copy_db_target: list(database|filesystem)?
-  domain: match([^\/:]+)
-  use_ssl: bool?
+  databases:
+  - str
   default_language: match([A-Za-z]{2})?
+  domain: match([^\/:]+)
+  local_db: str?
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  logins:
+  - password: password
+    username: str
+  remote_db_database: str?
+  remote_db_host: str?
+  remote_db_password: password?
+  remote_db_port: port?
+  remote_db_type: list(mariadb|postgres)?
+  remote_db_username: str?
+  reset_database: bool?
+  rights:
+  - database: str
+    privileges:
+    - list(ALTER|CREATE|CREATE ROUTINE|CREATE TEMPORARY TABLES|CREATE VIEW|DELETE|DELETE
+      HISTORY|DROP|EVENT|GRANT OPTION|INDEX|INSERT|LOCK TABLES|SELECT|SHOW VIEW|TRIGGER|UPDATE)?
+    username: str
+  server_secret: password
   share_max_size_gb: float(0.01,)?
   share_max_valid_days: int(1,)?
-  server_secret: password
-  log_level: list(trace|debug|info|notice|warning|error|fatal)?
   theme: list(light|dark)?
-  reset_database: bool?
-  databases:
-    - str
-  logins:
-    - username: str
-      password: password
-  rights:
-    - database: str
-      privileges:
-        - "list(ALTER|CREATE|CREATE ROUTINE|CREATE TEMPORARY TABLES|\
-          CREATE VIEW|DELETE|DELETE HISTORY|DROP|EVENT|GRANT OPTION|INDEX|\
-          INSERT|LOCK TABLES|SELECT|SHOW VIEW|TRIGGER|UPDATE)?"
-      username: str
+  use_ssl: bool?
 services:
-  - mysql:provide
+- mysql:provide
 slug: sharry-dependency-less
 url: https://github.com/erdnaxela02/addon-sharry-dependency-less
-version: 0.1.0
+version: 1.0.0
 watchdog: http://[HOST]:9090/api/v2/open/info/version
 webui: http://[HOST]:[PORT:9090]
-backup_post: s6-svc -wd -d /run/s6/legacy-services/mariadb-lock/
-backup_pre: s6-svc -wU -u /run/s6/legacy-services/mariadb-lock/

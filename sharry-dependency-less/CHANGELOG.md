@@ -16,11 +16,13 @@ droits de l'utilisateur java qui empechait d'utiliser une database locale
 dans la database Maria db
 - Ajout de la possibilitée de copier une database de maria db à locale et vice versa
 - Ajout de plusieurs fonctions supplémentaires dans la configuration de l'add-on
-  - utiliser une database Maria db ou locale par défaut
-  - utiliser une database Maria db
-  - utiliser une database locale
+  - utiliser une database Maria db ou locale
   - choisir un repertoir de stockage de la database locale
   - copier la database
   - source de la copie de la database
   - destination de la copie de la database
 - Ajout de l'add-on Mariadb dans l'image pour ne pas avoir a l'installer en plus
+
+
+
+
