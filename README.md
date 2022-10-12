@@ -110,3 +110,4 @@ SOFTWARE.
 [discord-ha]: https://discord.gg/c5DvZ4e
 [forum]: https://community.home-assistant.io/
 [HACF]: https://forum.hacf.fr/
+ 
