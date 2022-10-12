@@ -11,4 +11,3 @@ jobs:
     uses: erdnaxela02/ha-addon-workflows/.github/workflows/repository-updater.yaml@main
     secrets:
       UPDATER_TOKEN: ${{ secrets.UPDATER_TOKEN }}
- 

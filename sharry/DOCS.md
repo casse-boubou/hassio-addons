@@ -299,4 +299,3 @@ SOFTWARE.
 [releases]: https://github.com/erdnaxela02/addon-sharry/releases
 [sharry]: https://eikek.github.io/sharry/
 [sharry-docs-configure]: https://eikek.github.io/sharry/doc/configure
- 

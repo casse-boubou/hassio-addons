@@ -68,4 +68,3 @@ rules:
     level: error
   truthy:
     level: error
- 

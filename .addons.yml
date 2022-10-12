@@ -9,4 +9,3 @@ addons:
     repository: erdnaxela02/addon-sharry-dependency-less
     target: sharry
     image: ghcr.io/erdnaxela02/sharry-dependency-less/{arch}
- 

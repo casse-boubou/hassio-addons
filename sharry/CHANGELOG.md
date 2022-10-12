@@ -23,4 +23,3 @@ dans la database Maria db
   - copier la database
   - source de la copie de la database
   - destination de la copie de la database
- 

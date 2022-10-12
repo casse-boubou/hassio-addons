@@ -80,4 +80,3 @@ watchdog: http://[HOST]:9090/api/v2/open/info/version
 webui: http://[HOST]:[PORT:9090]
 backup_post: s6-svc -wd -d /run/s6/legacy-services/mariadb-lock/
 backup_pre: s6-svc -wU -u /run/s6/legacy-services/mariadb-lock/
- 

@@ -66,4 +66,3 @@ SOFTWARE.
 
 [releases]: https://github.com/erdnaxela02/addon-sharry/releases
 [releases-shield]: https://img.shields.io/github/v/release/erdnaxela02/addon-sharry
- 
