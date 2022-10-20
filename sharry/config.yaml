@@ -26,26 +26,26 @@ schema:
   conf_overrides:
   - property: match(^sharry[.]restserver[.][-.a-z0-9]+)
     value: str
+  defaultStore: list(database|filesystem)
+  local_db: str?
+  remote_db_type: list(mariadb|postgres)?
+  remote_db_host: str?
+  remote_db_port: port?
+  remote_db_username: str?
+  remote_db_password: password?
+  remote_db_database: str?
   copy_db: bool?
   copy_db_source: list(database|filesystem)?
   copy_db_target: list(database|filesystem)?
-  defaultStore: list(database|filesystem)
-  default_language: match([A-Za-z]{2})?
   domain: match([^\/:]+)
-  local_db: str?
-  log_level: list(trace|debug|info|notice|warning|error|fatal)?
-  remote_db_database: str?
-  remote_db_host: str?
-  remote_db_password: password?
-  remote_db_port: port?
-  remote_db_type: list(mariadb|postgres)?
-  remote_db_username: str?
-  reset_database: bool?
-  server_secret: password
+  use_ssl: bool?
+  default_language: match([A-Za-z]{2})?
   share_max_size_gb: float(0.01,)?
   share_max_valid_days: int(1,)?
+  server_secret: password
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
   theme: list(light|dark)?
-  use_ssl: bool?
+  reset_database: bool?
 services:
 - mysql:want
 slug: sharry
