@@ -1,3 +1,4 @@
 # What’s changed
-
-- Sharry et MariaDB ont maintenant des dossier séparer dans rootfs. Ainsi Sharry attend maintenant que MariaDB soit complètement initialisé avant de se lancer au lieu d'avoir le même fichier RUN pour les deux programmes qui les exécutes l'un après l'autre.
+[Bump Mariadb from 10.6.9 to 10.6.10](https://github.com/erdnaxela02/addon-sharry-dependency-less/commit/64cde47b1fe26ae842ba8f9ec60b4e8bdbc211bf)
+## Ajout
+- Ajout de descriptions des items dans la config de l'addon

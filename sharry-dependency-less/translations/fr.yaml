@@ -1,0 +1,76 @@
+---
+configuration:
+  conf_overrides:
+    name: Conf_overrides
+    description: Configuration de sharry supplémentaires.
+  defaultStore:
+    name: DefaultStore
+    description: Database par défaut.
+  local_db:
+    name: Local_db
+    description: Nom du repertoire de la database locale.
+  remote_db_type:
+    name: Remote_db_type
+    description: Tybe de database si elle est distante.
+  remote_db_host:
+    name: Remote_db_host
+    description: L'adresse/nom d'hote de la database si elle est distante.
+  remote_db_port:
+    name: Remote_db_port
+    description: Port de connexion de la database si elle est distante.
+  remote_db_username:
+    name: Remote_db_username
+    description: Nom d'utilisateur avec les permissions de la database si elle est distante.
+  remote_db_password:
+    name: Remote_db_password
+    description: Password de l'utilisateur au dessus pour la database si elle est distante.
+  remote_db_database:
+    name: Remote_db_database
+    description: Nom de la database si elle est distante.
+  copy_db:
+    name: Copy_db
+    description: Si l'utilisateur veut copier/backup la database.
+  copy_db_source:
+    name: Copy_db_source
+    description: Source de la database à copier.
+  copy_db_target:
+    name: Copy_db_target
+    description: Destination de la database à copier.
+  domain:
+    name: Domain
+    description: Nom de dommain auquel l'utilisateur pourra acceder à Sharry.
+  use_ssl:
+    name: Use_ssl
+    description: Si l'utilisateur doit utiliser SSL pour acceder à Sharry.
+  default_language:
+    name: Default_language
+    description: Un code pays ISO 3166-1 pour la langue de Sharry.
+  share_max_size_gb:
+    name: Share_max_size_gb
+    description: Taille Max des partages en Gb.
+  share_max_valid_days:
+    name: Share_max_valid_days
+    description: Nombre de jours Max où un partage peut être valide.
+  server_secret:
+    name: Server_secret
+    description: Secret utiliser pour signer les TOKENS d'authetification generer pour les clients.
+  log_level:
+    name: Log_level
+    description:
+  theme:
+    name: Theme
+    description: Theme par defaut de Sharry.
+  reset_database:
+    name: Reset_database
+    description: Pour supprimer et recréer la database au démarrage.
+  databases:
+    name: Databases
+    description: Nom de la database pour MariaDB.
+  logins:
+    name: Logins
+    description: Cette section définit les utilisateur créer dans MariaDB.
+  rights:
+    name: Rights
+    description: Cette section définit les permissions des utilisateurs dans MariaDB.
+network:
+  3306/tcp: Port d'acces à MariaDB.

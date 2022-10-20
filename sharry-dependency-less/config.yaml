@@ -23,6 +23,7 @@ options:
   rights:
   - database: sharry
     username: homeassistant
+  server_secret: null
   share_max_size_gb: 1.5
   share_max_valid_days: 365
   theme: light
@@ -34,7 +35,6 @@ ports_description:
   3306/tcp: Mariadb port
   9090/tcp: HTTP listen port
 schema:
-  DefaultStore: list(database|filesystem)
   conf_overrides:
   - property: match(^sharry[.]restserver[.][-.a-z0-9]+)
     value: str
@@ -43,6 +43,7 @@ schema:
   copy_db_target: list(database|filesystem)?
   databases:
   - str
+  defaultStore: list(database|filesystem)
   default_language: match([A-Za-z]{2})?
   domain: match([^\/:]+)
   local_db: str?
@@ -72,6 +73,6 @@ services:
 - mysql:provide
 slug: sharry-dependency-less
 url: https://github.com/erdnaxela02/addon-sharry-dependency-less
-version: 1.1.0
+version: 1.1.1
 watchdog: http://[HOST]:9090/api/v2/open/info/version
 webui: http://[HOST]:[PORT:9090]
