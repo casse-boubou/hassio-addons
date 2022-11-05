@@ -1,4 +1,4 @@
-# Home Assistant Add-on: MoneroDxP2Pool
+# Home Assistant Add-on: P2pool
 
 ## About
 
@@ -6,7 +6,7 @@ Cet Addon vous permettra l'execution d'un pool décentralisé [p2pool][p2pool] s
 votre HomeAssistant sur RaspBerry Pi 4.
 
 Pour toutes options de configuration et possibilitées d'applications, merci de vous
-renseigner sur la page du [projet][p2pool].
+renseigner sur la page du projet [p2pool][p2pool].
 
 ## Installation
 
@@ -137,9 +137,9 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program. If not, see <https://www.gnu.org/licenses/>.
+along with this program. If not, see <https://www.gnu.org/licenses>.
 
-[add-addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_sharry
+[add-addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_p2pool
 [add-addon-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ferdnaxela02%2Fhassio-addons
 [add-repo-shield]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
