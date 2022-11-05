@@ -20,21 +20,6 @@ https://github.com/erdnaxela02/hassio-addons
 
 ## Add-ons disponible
 
-### &#10003; [P2Pool][addon-p2pool]
-
-![Latest Version][p2pool-version-shield]
-![Supports armhf Architecture][p2pool-armhf-shield]
-![Supports armv7 Architecture][p2pool-armv7-shield]
-![Supports aarch64 Architecture][p2pool-aarch64-shield]
-![Supports amd64 Architecture][p2pool-amd64-shield]
-![Supports i386 Architecture][p2pool-i386-shield]
-
-P2pool pour HomeAssistant
-
-[![Open your Home Assistant instance and show the dashboard of a Supervisor add-on.][add-addon-shield]][add-addon-p2pool]
-
-[:books: P2Pool add-on documentation][addon-doc-p2pool]
-
 ### &#10003; [Sharry][addon-sharry]
 
 ![Latest Version][sharry-version-shield]
@@ -97,16 +82,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-[addon-p2pool]: https://github.com/erdnaxela02/addon-p2pool/tree/v0.1.1
-[addon-doc-p2pool]: https://github.com/erdnaxela02/addon-p2pool/blob/v0.1.1/README.md
-[p2pool-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
-[add-addon-p2pool]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_p2pool
-[p2pool-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[p2pool-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
-[p2pool-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[p2pool-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[p2pool-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 
 [addon-sharry]: https://github.com/erdnaxela02/addon-sharry/tree/v1.1.1
 [addon-doc-sharry]: https://github.com/erdnaxela02/addon-sharry/blob/v1.1.1/README.md
