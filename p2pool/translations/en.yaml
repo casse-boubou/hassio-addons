@@ -1,0 +1,19 @@
+---
+configuration:
+  p2pool_conf_overrides:
+    name: P2pool_conf_overrides
+    description: P2pool's command line configuration.
+  monero_wallet:
+    name: Monero_Wallet
+    description: Wallet address to mine to.
+  p2pool_mini_sidechain:
+    name: P2pool_mini_sidechain
+    description: Connect to p2pool-mini sidechain.
+  p2pool_loglevel:
+    name: P2pool_loglevel
+    description: Verbosity of the log, integer number between 0 and 6
+network:
+  3333/tcp: Port open for mining witht external xmrig.
+  18080/tcp: Monero p2p port
+  37889/tcp: P2Pool p2p port
+  37888/tcp: P2Pool mini p2p port

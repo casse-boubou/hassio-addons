@@ -1,0 +1,35 @@
+arch:
+- aarch64
+auth_api: true
+codenotary: erdnaxela02@hotmail.fr
+description: P2pool pour HomeAssistant
+image: ghcr.io/erdnaxela02/p2pool/{arch}
+init: false
+name: P2Pool
+options:
+  p2pool_conf_overrides:
+  - property: no-cache
+    value: ''
+  - property: no-randomx
+    value: ''
+  p2pool_loglevel: '1'
+ports:
+  18080/tcp: 18080
+  3333/tcp: 3333
+  37888/tcp: 37888
+  37889/tcp: 37889
+ports_description:
+  18080/tcp: Monero p2p port
+  3333/tcp: Port open for mining witht external xmrig
+  37888/tcp: P2Pool mini p2p port
+  37889/tcp: P2Pool p2p port
+schema:
+  monero_wallet: password
+  p2pool_conf_overrides:
+  - property: str
+    value: str
+  p2pool_loglevel: list(0|1|2|3|4|5|6)?
+  p2pool_mini_sidechain: bool?
+slug: p2pool
+url: https://github.com/erdnaxela02/addon-p2pool
+version: 0.1.0
