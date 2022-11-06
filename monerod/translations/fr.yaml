@@ -1,0 +1,24 @@
+---
+configuration:
+  monerod_conf_overrides:
+    name: Monerod_conf_overrides
+    description: Configuration de monerod supplémentaires.
+  data_dir:
+    name: Data_directory
+    description: Chemin d'accès complet aux données.
+  max_log_file_size:
+    name: Max_log_file_size
+    description: Limite de taille en octets pour le fichier LOG.
+  prune_blockchain:
+    name: Prune_blockchain
+    description: Prune permet d'économiser 2/3 de l'espace disque sans dégrader les fonctionnalités.
+  sync_pruned_blocks:
+    name: Sync_pruned_blocks
+    description: Acceptez les blocs pruned lors de la synchronisation.
+  db_sync_mode:
+    name: Database_sync_mode
+    description: Mode de synchronisation.
+network:
+  18080/tcp: Monerod p2p port
+  18081/tcp: Monerod node RPC API port
+  18083/tcp: ZMQ pub port pour p2pool
