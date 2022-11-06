@@ -13,3 +13,7 @@ addons:
     repository: erdnaxela02/addon-p2pool
     target: p2pool
     image: ghcr.io/erdnaxela02/p2pool/{arch}
+  monerod:
+    repository: erdnaxela02/addon-monerod
+    target: monerod
+    image: ghcr.io/erdnaxela02/monerod/{arch}
