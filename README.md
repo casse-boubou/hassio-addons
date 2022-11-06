@@ -20,6 +20,21 @@ https://github.com/erdnaxela02/hassio-addons
 
 ## Add-ons disponible
 
+### &#10003; [Monerod][addon-monerod]
+
+![Latest Version][monerod-version-shield]
+![Supports armhf Architecture][monerod-armhf-shield]
+![Supports armv7 Architecture][monerod-armv7-shield]
+![Supports aarch64 Architecture][monerod-aarch64-shield]
+![Supports amd64 Architecture][monerod-amd64-shield]
+![Supports i386 Architecture][monerod-i386-shield]
+
+Monerod pour HomeAssistant
+
+[![Open your Home Assistant instance and show the dashboard of a Supervisor add-on.][add-addon-shield]][add-addon-monerod]
+
+[:books: Monerod add-on documentation][addon-doc-monerod]
+
 ### &#10003; [P2Pool][addon-p2pool]
 
 ![Latest Version][p2pool-version-shield]
@@ -97,6 +112,16 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+[addon-monerod]: https://github.com/erdnaxela02/addon-monerod/tree/v0.1.0
+[addon-doc-monerod]: https://github.com/erdnaxela02/addon-monerod/blob/v0.1.0/README.md
+[monerod-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[add-addon-monerod]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_monerod
+[monerod-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[monerod-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
+[monerod-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[monerod-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[monerod-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 
 [addon-p2pool]: https://github.com/erdnaxela02/addon-p2pool/tree/v0.1.0
 [addon-doc-p2pool]: https://github.com/erdnaxela02/addon-p2pool/blob/v0.1.0/README.md
