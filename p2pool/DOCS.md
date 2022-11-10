@@ -36,14 +36,15 @@ p2pool_loglevel: "1"
 
 **Note**: _Ceci n'est qu'un exemple, ne le copier-coller pas ! Crée le votre!_
 
-**Note**: _Il est recommandeé d'utiliser les option `no-cache` et `no-randomx` sur
-Raspberry afin d'economiser des resources mémoire._
+**Note**: _Si votre instance HomeAssistant est installé sur un Raspberry, il est
+recommandé d'utiliser les option `no-cache` et `no-randomx` afin d'economiser
+des resources mémoire._
 
-### Option: `p2pool_conf_overrides`
+### Option: `p2pool_conf_overrides` (optional)
 
 Cette option vous permet de fournir une option de configuration pour personnaliser
-les configutaions avancées de P2pool qui n'ont pas été exposées en tant qu'options
-ci-dessous.
+les configutaions avancées de P2pool qui n'ont pas été prédéfinit en tant qu'options
+d'addon paramétrable.
 
 Vous pouvez voir l'ensemble complet des options disponibles ici :
 
@@ -63,7 +64,7 @@ OR
 peut éventuellement entraîner des problèmes avec votre instance.
 À UTILISER À VOS RISQUES ET PÉRILS!_
 
-### Option: `monero_wallet`
+### Option: `monero_wallet` (required)
 
 Adresse de votre portefeuille Monero.
 
@@ -74,13 +75,29 @@ de portefeuille sont publiques sur P2Pool !
 Seule les primary wallet address sont prisent en charge - pas de subaddresses ni
 integrated addresses.
 
-### Option: `p2pool_mini_sidechain`
+### Option: `p2pool_mini_sidechain` (optional)
 
 Ajoutez le paramètre --mini à votre commande P2Pool pour vous connecter à la sidechain
 p2pool-mini.
 Notez que cela changera également le port p2p par défaut de 37889 à 37888.
 
-### Option: `p2pool_loglevel`
+### Option: `p2pool_print_status` (optional)
+
+Interval de temps, en minutes, pour lequel l'addon va afficher le statut du pool.
+Le statut Stratum Server sera affiché tout les X minutes (X étant la valeur défini).
+Le statut Sidechain quand à lui sera affiché avec un interval minimum de 2h.
+
+**Note**: _Ces informations ne sont pas optenu à partir de l'executable P2pool
+mais depuis les JSON distribué par l'executable et par l'API public [P2Pool.Observer][poolobserver]
+et [MINI.P2Pool.Observer][poolobservermini]. Ils sont mis à jour chaques fois
+qu'un job est envoyer au worker et peuvent donc mettre un petit temps à s'actualiser.
+Je recommande donc un minimum de 2 ou 3 pour ce paramètre surtout si vous êtes
+sur la Sidechain Mini._
+
+Cela correspond à la commande `status` de l'executable p2pool. La valeur par défaut
+est `15`
+
+### Option: `p2pool_loglevel` (optional)
 
 Verbosité du journal, nombre entier compris entre 0 et 6.
 P2Pool a une journalisation détaillée par défaut, vous pouvez la réduire en utilisant
@@ -127,16 +144,16 @@ SOFTWARE.
 > **_Parts of the project are originally Copyright (c) 2022, [SChernykh][p2poolauthor],
 > distributed under [GNU General Public License v3.0][p2poollicense]:_**
 >
-> > _- This program is free software: you can redistribute it and/or modify it under
+> > _1. This program is free software: you can redistribute it and/or modify it under
 > > the terms of the GNU General Public License as published by the Free Software
 > > Foundation, either version 3 of the License, or (at your option) any later version._
 > >
-> > _- This program is distributed in the hope that it will be useful,
+> > _2. This program is distributed in the hope that it will be useful,
 > > but WITHOUT ANY WARRANTY; without even the implied warranty of
 > > MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 > > GNU General Public License for more details._
 > >
-> > _- You should have received a copy of the GNU General Public License
+> > _3. You should have received a copy of the GNU General Public License
 > > along with this program. If not, see <https://www.gnu.org/licenses>._
 
 [add-addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_p2pool
@@ -151,3 +168,5 @@ SOFTWARE.
 [p2pool]: https://github.com/SChernykh/p2pool
 [p2poolauthor]: https://github.com/SChernykh
 [p2poollicense]: https://github.com/SChernykh/p2pool/blob/master/LICENSE
+[poolobserver]: https://p2pool.observer/api
+[poolobservermini]: https://mini.p2pool.observer/api

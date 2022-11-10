@@ -43,16 +43,16 @@ SOFTWARE.
 > **_Parts of the project are originally Copyright (c) 2022, [SChernykh][p2poolauthor],
 > distributed under [GNU General Public License v3.0][p2poollicense]:_**
 >
->> _- This program is free software: you can redistribute it and/or modify it under
+>> _1. This program is free software: you can redistribute it and/or modify it under
 >> the terms of the GNU General Public License as published by the Free Software
 >> Foundation, either version 3 of the License, or (at your option) any later version._
 >>
->> _- This program is distributed in the hope that it will be useful,
+>> _2. This program is distributed in the hope that it will be useful,
 >> but WITHOUT ANY WARRANTY; without even the implied warranty of
 >> MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 >> GNU General Public License for more details._
 >>
->> _- You should have received a copy of the GNU General Public License
+>> _3. You should have received a copy of the GNU General Public License
 >> along with this program. If not, see <https://www.gnu.org/licenses>._
 
 [p2pool]: https://github.com/SChernykh/p2pool
