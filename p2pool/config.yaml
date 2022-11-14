@@ -22,7 +22,6 @@ ports_description:
   37888/tcp: P2Pool mini p2p port
   37889/tcp: P2Pool p2p port
 schema:
-schema:
   p2pool_conf_overrides:
   - property: str
     value: str
