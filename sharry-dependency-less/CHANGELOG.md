@@ -1,4 +1,6 @@
 # What’s changed
-[Bump Mariadb from 10.6.9 to 10.6.10](https://github.com/erdnaxela02/addon-sharry-dependency-less/commit/64cde47b1fe26ae842ba8f9ec60b4e8bdbc211bf)
-## Ajout
-- Ajout de descriptions des items dans la config de l'addon
+[Full Changelog](https://github.com/erdnaxela02/addon-sharry-dependency-less/compare/v1.1.1...v1.1.2)
+## 🧰 Maintenance
+- Update icon and logo
+## ⬆️ Dependency updates
+- Bump openjdk11-jre from 11.0.16 to 11.0.17
