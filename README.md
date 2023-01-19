@@ -113,9 +113,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-monerod]: https://github.com/erdnaxela02/addon-monerod/tree/v0.1.0
-[addon-doc-monerod]: https://github.com/erdnaxela02/addon-monerod/blob/v0.1.0/README.md
-[monerod-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[addon-monerod]: https://github.com/erdnaxela02/addon-monerod/tree/v0.1.1
+[addon-doc-monerod]: https://github.com/erdnaxela02/addon-monerod/blob/v0.1.1/README.md
+[monerod-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
 [add-addon-monerod]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_monerod
 [monerod-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [monerod-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg

@@ -31,4 +31,4 @@ schema:
   sync_pruned_blocks: bool?
 slug: monerod
 url: https://github.com/erdnaxela02/addon-monerod
-version: 0.1.0
+version: 0.1.1
