@@ -150,7 +150,7 @@ le mot de passe de l'utilisateur ci-dessus.
 ### Option: `local_db` (optional)
 
 Renseignez le nom du repertoire où les données seront localement stocker.
-Par défaut "Sharry"
+Par défaut `Sharry`
 
 ### Option: `copy_db` (optional)
 
@@ -204,7 +204,7 @@ La taille maximale d'un partage en Go. La valeur par défaut est `1.5`.
 ### Option: `share_max_valid_days` (optional)
 
 Nombre maximum de jours pendant lesquels un partage peut être valide.
-La valeur par défaut est '365'.
+La valeur par défaut est `365`.
 
 ### Option: `server_secret` (required)
 
@@ -215,8 +215,6 @@ hexadécimale ou `b64:` pour utiliser une valeur encodée en base64.
 ### Option: `reset_database` (optional)
 
 Définir sur `true` pour supprimer et recréer la base de données au démarrage.
-Comme les données sont conservées dans l'addon MariaDB, elles ne sont pas
-supprimées lors d'une désinstallation.
 
 **Note**: _Cette option s'applique **uniquement** si vous utilisez le module
 complémentaire MariaDB, il n'essaiera pas de supprimer une base de
@@ -290,7 +288,7 @@ la [page des contributeurs][contributors].
 
 MIT License
 
-Copyright (c) 2021-2022 [Mike Degatano][mdegat01]
+Copyright (c) 2022-2023 [Frosch][frosch]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -310,6 +308,27 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+> **_Parts of the project are copied and inspired by a project originally Copyright
+> (c) 2021-2023 [Mike Degatano][mdegat01], distributed under [MIT License.][sharrylicense]:_**
+>
+> > Permission is hereby granted, free of charge, to any person obtaining a copy
+> > of this software and associated documentation files (the "Software"), to deal
+> > in the Software without restriction, including without limitation the rights
+> > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+> > copies of the Software, and to permit persons to whom the Software is
+> > furnished to do so, subject to the following conditions:\_
+> >
+> > _The above copyright notice and this permission notice shall be included in all
+> > copies or substantial portions of the Software._
+> >
+> > _THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+> > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+> > AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+> > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+> > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+> > SOFTWARE._
+
 [add-addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_sharry-dependency-less
 [add-addon-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ferdnaxela02%2Fhassio-addons
@@ -323,7 +342,9 @@ SOFTWARE.
 [hocon-docs-arrays]: https://github.com/lightbend/config/blob/master/README.md#set-array-values-outside-configuration-files
 [hocon-docs-props]: https://github.com/lightbend/config/blob/master/HOCON.md#java-properties-mapping
 [iso-3166-1]: https://en.wikipedia.org/wiki/ISO_3166-1
+[frosch]: https://github.com/erdnaxela02
 [mdegat01]: https://github.com/mdegat01
+[sharrylicense]: https://github.com/mdegat01/addon-sharry/blob/main/LICENSE
 [contributors]: https://github.com/mdegat01/addon-sharry/graphs/contributors
 [releases]: https://github.com/erdnaxela02/addon-sharry-dependency-less/releases
 [sharry]: https://eikek.github.io/sharry/

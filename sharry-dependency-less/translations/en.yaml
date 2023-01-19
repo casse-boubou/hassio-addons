@@ -1,76 +1,76 @@
 ---
 configuration:
   conf_overrides:
-    name: Conf_overrides
+    name: Advanced Sharry configurations
     description: Sharry's configuration is specified in HOCON.
   defaultStore:
-    name: DefaultStore
+    name: Default Store mode
     description: Default database.
   local_db:
-    name: Local_db
+    name: Local data storage directory
     description: Local data directory name if filesystem.
   remote_db_type:
-    name: Remote_db_type
+    name: Remote database type
     description: The type of database if remote database.
   remote_db_host:
-    name: Remote_db_host
+    name: Remote database host
     description: The hostname/address for the MariaDB/Postgres database if remote database.
   remote_db_port:
-    name: Remote_db_port
+    name: Remote database port
     description: The port that the database server is listening on if remote database.
   remote_db_username:
-    name: Remote_db_username
+    name: Remote database username
     description: The username with permissions on that database if remote database.
   remote_db_password:
-    name: Remote_db_password
+    name: Remote database password
     description: The password of the above user if remote database.
   remote_db_database:
-    name: Remote_db_database
+    name: Remote database name
     description: The name of the database if remote database.
   copy_db:
-    name: Copy_db
+    name: Enable database copy
     description: If the user wants to copy the database.
   copy_db_source:
-    name: Copy_db_source
+    name: Copy database source
     description: Copied database source.
   copy_db_target:
-    name: Copy_db_target
+    name: Copy database target
     description: Copied database target.
   domain:
-    name: Domain
+    name: Domain name
     description: The domain users will access Sharry at.
   use_ssl:
-    name: Use_ssl
+    name: Use an SSL connection
     description: If users will use SSL to access Sharry.
   default_language:
-    name: Default_language
+    name: Default language
     description: An ISO 3166-1 country code.
   share_max_size_gb:
-    name: Share_max_size_gb
+    name: Share max size
     description: Max size a share can be in GB.
   share_max_valid_days:
-    name: Share_max_valid_days
+    name: Share max valid days
     description: Max number of days a share can be valid for.
   server_secret:
-    name: Server_secret
+    name: Server secret token
     description: Secret used to sign authenticator tokens generated for clients.
   log_level:
-    name: Log_level
+    name: Log level
     description:
   theme:
     name: Theme
     description: Default theme on Sharry.
   reset_database:
-    name: Reset_database
+    name: Reset database
     description: To delete and recreate the database on startup.
   databases:
-    name: Databases
+    name: MariaDB databases name
     description: Database names.
   logins:
-    name: Logins
+    name: MariaDB logins
     description: This section defines a create user definition in MariaDB.
   rights:
-    name: Rights
+    name: Rights of MariaDB users
     description: This section grant privileges to users in MariaDB.
 network:
   3306/tcp: The port to access the database engine.
