@@ -20,7 +20,7 @@ Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
 
 MIT License
 
-Copyright (c) 2022 [Frosch][Frosch]
+Copyright (c) 2023 [Frosch][Frosch]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -40,7 +40,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-> **_Parts of the project are originally Copyright (c) 2022, [SChernykh][p2poolauthor],
+> **_Parts of the project are originally Copyright (c) 2023, [SChernykh][p2poolauthor],
 > distributed under [GNU General Public License v3.0][p2poollicense]:_**
 >
 >> _1. This program is free software: you can redistribute it and/or modify it under
