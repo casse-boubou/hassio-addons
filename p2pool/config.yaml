@@ -22,13 +22,13 @@ ports_description:
   37888/tcp: P2Pool mini p2p port
   37889/tcp: P2Pool p2p port
 schema:
-  monero_wallet: password
   p2pool_conf_overrides:
   - property: str
     value: str
-  p2pool_loglevel: list(0|1|2|3|4|5|6)?
+  monero_wallet: password
   p2pool_mini_sidechain: bool?
   p2pool_print_status: int(1,)?
+  p2pool_loglevel: list(0|1|2|3|4|5|6)?
 slug: p2pool
 url: https://github.com/erdnaxela02/addon-p2pool
 version: 0.4.0
