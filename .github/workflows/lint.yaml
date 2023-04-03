@@ -4,8 +4,6 @@ name: Lint
 # yamllint disable-line rule:truthy
 on:
   push:
-    branches:
-      - main
   pull_request:
     types:
       - opened
