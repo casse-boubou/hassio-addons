@@ -9,6 +9,12 @@ configuration:
   p2pool_mini_sidechain:
     name: Add the --mini parameter
     description: Connect to p2pool-mini sidechain.
+  p2pool_UPnP_port_forwarding:
+    name: Add UPnP port forwarding
+    description: Enable or disable UPnP port forwarding. (37887 or 37888 for mini)
+  p2pool_UPnP_portstratum_forwarding:
+    name: Add UPnP Stratum port forwarding
+    description: Enable or disable UPnP Stratum port (3333) forwarding.
   p2pool_print_status:
     name: P2pool print status (minutes)
     description: Time interval in minutes to display the statut.

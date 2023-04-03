@@ -81,6 +81,18 @@ Ajoutez le paramètre --mini à votre commande P2Pool pour vous connecter à la 
 p2pool-mini.
 Notez que cela changera également le port p2p par défaut de 37889 à 37888.
 
+### Option: `p2pool_UPnP_port_forwarding` (optional)
+
+Activez ou désactivez le transfert de port UPnP. (port 37887 ou 37888 pour mini)
+Si vous êtes sur une connexion FAI personnelle et que l'UPnP est activé sur votre
+routeur, vous pourrez obtenir des connexions entrantes avec cette version
+_(mais uniquement si votre adresse IP externe n'est pas partagée avec d'autres
+clients et si vous configurez correctement votre pare-feu local )_
+
+### Option: `p2pool_UPnP_portstratum_forwarding` (optional)
+
+Activez ou désactivez le transfert du port UPnP Stratum (port 3333).
+
 ### Option: `p2pool_print_status` (optional)
 
 Interval de temps, en minutes, pour lequel l'addon va afficher le statut du pool.

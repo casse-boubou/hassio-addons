@@ -1,16 +1,15 @@
-**New from [P2pool](https://github.com/SChernykh/p2pool/releases/tag/v3.0) project**
-*P2Pool (not Monero!) will hardfork to new consensus rules on March 18th, 2023 at 21:00 UTC. The hardfork is necessary to improve P2Pool scalability and reduce the impact on Monero blockchain. You must update to P2Pool v3.0 or newer before this date.
-[More info](https://www.reddit.com/r/MoneroMining/comments/1095730/psa_p2pool_network_upgrade_aka_hardfork_on_march/)*
-
 # What’s changed
-[Full Changelog](https://github.com/erdnaxela02/addon-p2pool/compare/v0.4.0...v1.0.0)
+[Full Changelog](https://github.com/erdnaxela02/addon-p2pool/compare/v1.0.0...v2.0.0)
 
 ## 🚀 Ajout de fonctions
-- Ajout de l'affichage des shares échoué lors de l'actualisation des infos du log `status` ([288f925](https://github.com/erdnaxela02/addon-p2pool/commit/288f925c00bc173640f5cae4a457b1caea40c669))
-- Ajout de l'affichage du temps de la fenêtre PPLNS lors de l'actualisation des infos du log `status` ([b7fcaa3](https://github.com/erdnaxela02/addon-p2pool/commit/b7fcaa3be466065f1b26c5673865fbd9a66d2631))
+- Added UPnP port forwarding support comes with v3.2 ([58ed572](https://github.com/erdnaxela02/addon-p2pool/commit/58ed572ce947075764b6cddc027c0ee770b68e32))
 
 ## 🐛 Maintenance
-- Fix d'un bug à la ligne de calcul de PPLNS window duration ([d189a7f](https://github.com/erdnaxela02/addon-p2pool/commit/d189a7f78ac1a01eb13f4addd1c379283c97d81d))
+- Preparation for P2Pool v3.2 changes ([6fed758](https://github.com/erdnaxela02/addon-p2pool/commit/6fed7584360ac65ab601cbf6a7260724ed11f6ec))
+- Add Renovate for dependency management ([b69515d](https://github.com/erdnaxela02/addon-p2pool/commit/b69515dcda94b47bc40696b1a18d05afbba9721d))
+- Change Workflows for copy from hassio-addons ([d50d125](https://github.com/erdnaxela02/addon-p2pool/commit/d50d12526b321d451101aa2ae74698a7464036c8))
 
 ## ⬆️ Dependency updates
-- ⬆️ Update P2pool from 2.7 to 3.0 ([a9a68c4](https://github.com/erdnaxela02/addon-p2pool/commit/a9a68c41ac8156071e8d53a2186391e207939bd1))
+- ⬆️ Update P2pool from 3.0 to 3.1 ([fd09f8f](https://github.com/erdnaxela02/addon-p2pool/commit/fd09f8fcddb36df8bb4d02e24b8783545c2a1305))
+- ⬆️ Update P2Pool to v3.2 ([8089e44](https://github.com/erdnaxela02/addon-p2pool/commit/8089e44375b8f5b12ea687e4226c47093fa344d0))
+- ⬆️ Update Addon Base Image to v6.2.5 ([47777bd](https://github.com/erdnaxela02/addon-p2pool/commit/47777bdd18ef7116074a00884aaf1bc72e6cba7c))
