@@ -1,16 +1,15 @@
+name: Monerod
+url: https://github.com/erdnaxela02/addon-monerod
+version: 0.2.0
+slug: monerod
 arch:
 - aarch64
-auth_api: true
-codenotary: erdnaxela02@hotmail.fr
 description: Monerod pour HomeAssistant
-image: ghcr.io/erdnaxela02/monerod/{arch}
+codenotary: erdnaxela02@hotmail.fr
 init: false
 map:
 - media:rw
-name: Monerod
-options:
-  data_dir: bitmonero
-  monerod_conf_overrides: []
+auth_api: true
 ports:
   18080/tcp: 18080
   18081/tcp: 18081
@@ -19,16 +18,17 @@ ports_description:
   18080/tcp: Monerod p2p port
   18081/tcp: Monerod node RPC API port
   18083/tcp: ZMQ pub port for p2pool
+options:
+  monerod_conf_overrides: []
+  data_dir: bitmonero
 schema:
-  data_dir: str
-  db_sync_mode: list(safe|fast|fastest)?
-  log_level: list(info|notice|debug|trace|all|)?
-  max_log_file_size: int(0,)?
   monerod_conf_overrides:
   - property: str
     value: str
+  data_dir: str
+  max_log_file_size: int(0,)?
   prune_blockchain: bool?
   sync_pruned_blocks: bool?
-slug: monerod
-url: https://github.com/erdnaxela02/addon-monerod
-version: 0.1.1
+  db_sync_mode: list(safe|fast|fastest)?
+  log_level: list(info|notice|debug|trace|all|)?
+image: ghcr.io/erdnaxela02/monerod/{arch}
