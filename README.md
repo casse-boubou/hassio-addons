@@ -1,8 +1,8 @@
-# Frosch Home Assistant Add-ons
+# Frosh Home Assistant Add-ons
 
 [![License][license-shield]](LICENSE)
 
-Une collection d'add-on pour HomeAssistant faite par Frosch et développer pour Raspberry Pi 4.
+Une collection d'add-on pour HomeAssistant faite par Frosh et développer pour Raspberry Pi 4.
 
 ## Installation
 
