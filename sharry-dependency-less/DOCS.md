@@ -288,7 +288,7 @@ la [page des contributeurs][contributors].
 
 MIT License
 
-Copyright (c) 2022-2023 [Frosch][frosch]
+Copyright (c) 2022-2023 [Frosh][Frosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -342,7 +342,7 @@ SOFTWARE.
 [hocon-docs-arrays]: https://github.com/lightbend/config/blob/master/README.md#set-array-values-outside-configuration-files
 [hocon-docs-props]: https://github.com/lightbend/config/blob/master/HOCON.md#java-properties-mapping
 [iso-3166-1]: https://en.wikipedia.org/wiki/ISO_3166-1
-[frosch]: https://github.com/erdnaxela02
+[Frosh]: https://github.com/erdnaxela02
 [mdegat01]: https://github.com/mdegat01
 [sharrylicense]: https://github.com/mdegat01/addon-sharry/blob/main/LICENSE
 [contributors]: https://github.com/mdegat01/addon-sharry/graphs/contributors

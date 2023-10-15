@@ -37,7 +37,7 @@ Pour une liste complète des auteurs et contributeurs merci de consulter la [pag
 
 MIT License
 
-Copyright (c) 2022-2023 [Frosch][frosch]
+Copyright (c) 2022-2023 [Frosh][Frosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -78,7 +78,7 @@ SOFTWARE.
 > > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > > SOFTWARE._
 
-[frosch]: https://github.com/erdnaxela02
+[Frosh]: https://github.com/erdnaxela02
 [mdegat01]: https://github.com/mdegat01
 [sharrylicense]: https://github.com/mdegat01/addon-sharry/blob/main/LICENSE
 [contributors]: https://github.com/mdegat01/addon-sharry/graphs/contributors
