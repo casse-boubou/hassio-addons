@@ -1,6 +1,6 @@
 name: P2Pool
 url: https://github.com/erdnaxela02/addon-p2pool
-version: 2.1.0
+version: 3.0.0
 slug: p2pool
 arch:
 - aarch64
@@ -27,6 +27,7 @@ schema:
   p2pool_conf_overrides:
   - property: str
     value: str
+  host: str
   monero_wallet: password
   p2pool_mini_sidechain: bool?
   p2pool_UPnP_port_forwarding: bool?

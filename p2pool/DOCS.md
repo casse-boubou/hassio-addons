@@ -29,6 +29,7 @@ p2pool_conf_overrides:
     value: ""
   - property: no-randomx
     value: ""
+host: 127.0.0.1
 monero_wallet: YOUR_WALLET_ADDRESS
 p2pool_mini_sidechain: true
 p2pool_loglevel: "1"
@@ -63,6 +64,10 @@ OR
 **Note**: _Toutes les options n'ont pas été testées. La modification de ces options
 peut éventuellement entraîner des problèmes avec votre instance.
 À UTILISER À VOS RISQUES ET PÉRILS!_
+
+### Option: `host` (required)
+
+Adresse IP de votre noeud Monero. La valeure par défaut est 127.0.0.1.
 
 ### Option: `monero_wallet` (required)
 
@@ -133,7 +138,7 @@ Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
 
 MIT License
 
-Copyright (c) 2023 [Frosch][frosch]
+Copyright (c) 2023 [Frosh][Frosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -175,7 +180,7 @@ SOFTWARE.
 [discord-ha]: https://discord.gg/c5DvZ4e
 [forum]: https://community.home-assistant.io
 [hacf]: https://forum.hacf.fr/
-[frosch]: https://github.com/erdnaxela02
+[Frosh]: https://github.com/erdnaxela02
 [releases]: https://github.com/erdnaxela02/addon-p2pool/releases
 [p2pool]: https://github.com/SChernykh/p2pool
 [p2poolauthor]: https://github.com/SChernykh

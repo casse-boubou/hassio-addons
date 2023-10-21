@@ -14,13 +14,13 @@ Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
 
 - [Le Forum communautaire francophone][HACF] de HomeAssistant
 - [Le Forum communautaire anglophone][forum] de HomeAssistant.
-- [Le serveur Discord][discord-ha] de HomeAssistant..
+- [Le serveur Discord][discord-ha] de HomeAssistant.
 
 ## License
 
 MIT License
 
-Copyright (c) 2023 [Frosch][Frosch]
+Copyright (c) 2023 [Frosh][Frosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -61,7 +61,7 @@ SOFTWARE.
 [forum]: https://community.home-assistant.io
 [HACF]: https://forum.hacf.fr/
 
-[Frosch]: https://github.com/erdnaxela02
+[Frosh]: https://github.com/erdnaxela02
 [license]: https://github.com/erdnaxela02/addon-p2pool/blob/main/LICENSE
 [license-shield]: https://img.shields.io/github/license/erdnaxela02/addon-p2pool
 

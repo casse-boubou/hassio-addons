@@ -3,6 +3,9 @@ configuration:
   p2pool_conf_overrides:
     name: Configutaions avancées de P2pool
     description: Configuration en ligne de commande de P2pool.
+  host:
+    name: Host IP.
+    description: Adresse IP de votre noeud Monero.
   monero_wallet:
     name: Adresse du wallet monero
     description: Adresse du wallet monero.
