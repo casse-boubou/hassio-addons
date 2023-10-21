@@ -20,7 +20,7 @@ Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
 
 MIT License
 
-Copyright (c) 2022-2023 [Frosch][Frosch]
+Copyright (c) 2022-2023 [Frosh][Frosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -73,7 +73,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE._
 [forum]: https://community.home-assistant.io
 [HACF]: https://forum.hacf.fr/
 
-[Frosch]: https://github.com/erdnaxela02
+[Frosh]: https://github.com/erdnaxela02
 [license]: https://github.com/erdnaxela02/addon-monerod/blob/main/LICENSE
 [license-shield]: https://img.shields.io/github/license/erdnaxela02/addon-monerod.svg
 
