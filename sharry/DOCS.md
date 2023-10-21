@@ -72,7 +72,7 @@ use_ssl: false
 default_language: us
 share_max_size_gb: 1.5
 share_max_valid_days: 365
-server_secret: changeme
+server_secret: CHANGE_ME
 log_level: info
 conf_overrides:
   - property: sharry.restserver.webapp.welcome-message
@@ -81,7 +81,7 @@ conf_overrides:
 
 **Note**: _Ceci n'est qu'un exemple, ne le copier-coller pas ! Crée le votre!_
 
-### Option: `conf_overrides`
+### Option: `conf_overrides` (required)
 
 La configuration de Sharry est spécifiée dans [HOCON][hocon].
 Cela signifie que les valeurs d'une configuration peuvent être remplacées à
@@ -101,17 +101,17 @@ configuration spécifique seront prioritaires. Ceux qui ne peuvent pas être
 remplacés sont signalés par un commentaire
 dans la [configuration par défaut][default-config] que cet add-on utilise.
 
-#### Sub-option: `property`
+#### Sub-option: `conf_overrides.property` (required)
 
 La propriété de configuration à définir. Doit être le chemin complet à
 partir de la racine. Des instructions sur la manipulation des tableaux
 peuvent être trouvées [ici][hocon-docs-arrays].
 
-#### Sub-option: `value`
+#### Sub-option: `conf_overrides.value` (required)
 
 La valeur de la propriété à définir.
 
-### Option: `DefaultStore`
+### Option: `DefaultStore` (required)
 
 Le mode de stockage des données partagées.
 
@@ -120,67 +120,57 @@ Database: les données seront stocker dans une base de données Mariadb ou Postg
 Filesystem: les données seront stocker localement dans un fichier system
 Localiser dans le dossier "share" de HA
 
-### Option: `use_maria_db`
-
-A définir si vous souhaitez stocker les données dans la base de donnée de
-l'add-on Maria db ou via une base de données mariadb/postgres distante
-
-### Option: `remote_db_host`
+### Option: `remote_db_host` (optional)
 
 Si vous utilisez une base de données externe, le hostname/l'adresse
 de la base de données MariaDB/Postgres.
 
-### Option: `remote_db_type`
+### Option: `remote_db_type` (optional)
 
 S'applique uniquement si une base de données distante est utilisée,
 le type de base de données (`mariadb` ou `postgres`).
 
-### Option: `remote_db_port`
+### Option: `remote_db_port` (optional)
 
 S'applique uniquement si une base de données distante est utilisée,
 le port sur lequel le serveur de base de données écoute.
 
-### Option: `remote_db_database`
+### Option: `remote_db_database` (optional)
 
 S'applique uniquement si une base de données distante est utilisée,
 le nom de la base de données.
 
-### Option: `remote_db_username`
+### Option: `remote_db_username` (optional)
 
 S'applique uniquement si une base de données distante est utilisée,
 le nom d'utilisateur qui possède les autorisations sur cette base de données.
 
-### Option: `remote_db_password`
+### Option: `remote_db_password` (optional)
 
 S'applique uniquement si une base de données distante est utilisée,
 le mot de passe de l'utilisateur ci-dessus.
 
-### Option: `use_local_db`
-
-A définir si vous souhaitez stocker les données dans un dossier
-locale du repertoire "share" de votre HA
-
-### Option: `local_db`
+### Option: `local_db` (optional)
 
 Renseignez le nom du repertoire où les données seront localement stocker.
-Par défaut "Sharry"
+Par défaut `Sharry`
 
-### Option: `copy_db`
+### Option: `copy_db` (optional)
 
 A définir si vous souhaiter activer la copie des données partagées
 d'une base de données mariadb/postgres vers un stockage locale
 ou inversement.
 La copie est effectuée au démarrage de l'add-on.
 
-### Option: `copy_db_source`
+### Option: `copy_db_source` (optional)
 
 Selectionnez ici la source de la copie des données
 
-### Option: `copy_db_target`
+### Option: `copy_db_target` (optional)
 
 Selectionnez ici la destination de la copie des données
 
-### Option: `domain`
+### Option: `domain` (required)
 
 Le nom de domaine à partir duquel les utilisateurs accèderont à Sharry.
 Sharry reçoit une URL de base qu'elle utilise pour générer des URL et
@@ -189,43 +179,56 @@ de l'option `use_ssl` et du port que vous avez indiqué pour `9090`.
 Si le port n'est pas répertorié, l'add-on suppose que les utilisateurs
 n'incluent pas de port dans l'URL lorsqu'ils accèdent à Sharry.
 
-### Option: `use_ssl`
+### Option: `ssl` (optional)
 
-Si les utilisateurs utilisent SSL pour accéder à Sharry.
-La valeur par défaut est `false`.
+Active/Désactive SSL (HTTPS). Définissez-le sur `true` pour l'activer,
+sinon `false`.
 
-**Note**: _L'activation de l'accès SSL est hors de portée pour Sharry.
-Cette option est pour les utilisateurs qui utilisent un proxy inverse
-et y activent SSL._
+**Note**: _Les paramètres SSL s'appliquent uniquement à l'accès direct
+et n'ont aucun effet sur le service Ingress._
 
-### Option: `access.add_port`
+### Option: `certfile` (optional)
+
+Le fichier de certificat à utiliser pour SSL.
+
+**Note**: _Le fichier DOIT être stocké dans `/ssl/`,
+qui est la valeur par défaut_
+
+### Option: `keyfile` (optional)
+
+Le fichier de clé privée à utiliser pour SSL.
+
+**Note**: _Le fichier DOIT être stocké dans `/ssl/`,
+qui est la valeur par défaut_
+
+### Option: `access.add_port` (optional)
 
 Les ports que les utilisateurs devront fournir lors de l'accès à Sharry.
 Si omis, suppose que les utilisateurs ne fourniront pas de port dans
 l'URL lors de l'accès à Sharry.
 
-### Option: `default_language`
+### Option: `default_language` (optional)
 
 Un code pays [ISO 3166-1][iso-3166-1]. La valeur par défaut est `us` si
 omis ou si le code fourni n'est pas valide ou si sa langue
 n'est pas disponible pour Sharry.
 
-### Option: `share_max_size_gb`
+### Option: `share_max_size_gb` (optional)
 
 La taille maximale d'un partage en Go. La valeur par défaut est `1.5`.
 
-### Option: `share_max_valid_days`
+### Option: `share_max_valid_days` (optional)
 
 Nombre maximum de jours pendant lesquels un partage peut être valide.
-La valeur par défaut est '365'.
+La valeur par défaut est `365`.
 
-### Option: `server_secret`
+### Option: `server_secret` (required)
 
 _Secret_ utilisé pour signer les jetons d'authentification générés pour les
 clients. Préfixez-le avec `hex:` pour utiliser une valeur
 hexadécimale ou `b64:` pour utiliser une valeur encodée en base64.
 
-### Option: `reset_database`
+### Option: `reset_database` (optional)
 
 Définir sur `true` pour supprimer et recréer la base de données au démarrage.
 Comme les données sont conservées dans l'addon MariaDB, elles ne sont pas
@@ -260,7 +263,7 @@ la [page des contributeurs][contributors].
 
 MIT License
 
-Copyright (c) 2021-2022 [Mike Degatano][mdegat01]
+Copyright (c) 2022-2023 [Frosh][Frosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -280,6 +283,27 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+> **_Parts of the project are copied and inspired by a project originally Copyright
+> (c) 2021-2023 [Mike Degatano][mdegat01], distributed under [MIT License.][sharrylicense]:_**
+>
+> > Permission is hereby granted, free of charge, to any person obtaining a copy
+> > of this software and associated documentation files (the "Software"), to deal
+> > in the Software without restriction, including without limitation the rights
+> > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+> > copies of the Software, and to permit persons to whom the Software is
+> > furnished to do so, subject to the following conditions:\_
+> >
+> > _The above copyright notice and this permission notice shall be included in all
+> > copies or substantial portions of the Software._
+> >
+> > _THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+> > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+> > AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+> > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+> > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+> > SOFTWARE._
+
 [add-addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_sharry
 [add-addon-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ferdnaxela02%2Fhassio-addons
@@ -294,7 +318,9 @@ SOFTWARE.
 [hocon-docs-arrays]: https://github.com/lightbend/config/blob/master/README.md#set-array-values-outside-configuration-files
 [hocon-docs-props]: https://github.com/lightbend/config/blob/master/HOCON.md#java-properties-mapping
 [iso-3166-1]: https://en.wikipedia.org/wiki/ISO_3166-1
+[Frosh]: https://github.com/erdnaxela02
 [mdegat01]: https://github.com/mdegat01
+[sharrylicense]: https://github.com/mdegat01/addon-sharry/blob/main/LICENSE
 [contributors]: https://github.com/mdegat01/addon-sharry/graphs/contributors
 [releases]: https://github.com/erdnaxela02/addon-sharry/releases
 [sharry]: https://eikek.github.io/sharry/

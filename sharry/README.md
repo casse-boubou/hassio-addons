@@ -7,7 +7,7 @@
 
 ## About
 
-Ce projet est un fork du projet original de [Mike Degatano][mike-degatano] auquel j'ai rajouter la possibilitée de stocker les fichier directement dans un dossier local ainsi que de copier la base de donnée de Mariadb à un stockage local ou inversement.
+Ce projet est un fork du projet original de [Mike Degatano][mdegat01] auquel j'ai rajouter la possibilitée de stocker les fichier directement dans un dossier local ainsi que de copier la base de donnée de Mariadb à un stockage local ou inversement.
 
 Cet add-on permet un partage de fichiers rapidement et facilement.
 Vous glisser et déposez des fichiers et obtenez un lien que vous pouvez partager avec n'importe qui.
@@ -23,7 +23,7 @@ Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
 
 - [Le Forum communautaire francophone][HACF] de HomeAssistant
 - [Le Forum communautaire anglophone][forum] de HomeAssistant.
-- [Le serveur Discord][discord-ha] de HomeAssistant..
+- [Le serveur Discord][discord-ha] de HomeAssistant.
 
 ## Authors & contributors
 
@@ -35,7 +35,7 @@ Pour une liste complète des auteurs et contributeurs merci de consulter la [pag
 
 MIT License
 
-Copyright (c) 2021-2022 [Mike Degatano][Mike-Degatano]
+Copyright (c) 2022-2023 [Frosh][Frosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -55,7 +55,30 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Mike-Degatano]: https://github.com/mdegat01
+> **_Parts of the project are copied and inspired by a project originally Copyright
+> (c) 2021-2023 [Mike Degatano][mdegat01], distributed under [MIT License.][sharrylicense]:_**
+>
+> > Permission is hereby granted, free of charge, to any person obtaining a copy
+> > of this software and associated documentation files (the "Software"), to deal
+> > in the Software without restriction, including without limitation the rights
+> > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+> > copies of the Software, and to permit persons to whom the Software is
+> > furnished to do so, subject to the following conditions:_
+> >
+> > _The above copyright notice and this permission notice shall be included in all
+> > copies or substantial portions of the Software._
+> >
+> > _THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+> > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+> > AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+> > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+> > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+> > SOFTWARE._
+
+[Frosh]: https://github.com/erdnaxela02
+[mdegat01]: https://github.com/mdegat01
+[sharrylicense]: https://github.com/mdegat01/addon-sharry/blob/main/LICENSE
 [contributors]: https://github.com/mdegat01/addon-sharry/graphs/contributors
 
 [sharry]: https://eikek.github.io/sharry/

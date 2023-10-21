@@ -1,27 +1,35 @@
+name: Sharry
+url: https://github.com/erdnaxela02/addon-sharry
+version: 1.1.2
+slug: sharry
 arch:
 - aarch64
-auth_api: true
-codenotary: erdnaxela02@hotmail.fr
 description: Sharry pour Home Assistant
-image: ghcr.io/erdnaxela02/sharry/{arch}
+codenotary: erdnaxela02@hotmail.fr
 init: false
 map:
 - share:rw
-name: Sharry
-options:
-  conf_overrides: []
-  default_language: us
-  domain: homeassistant.local
-  log_level: info
-  server_secret: null
-  share_max_size_gb: 1.5
-  share_max_valid_days: 365
-  theme: light
-  use_ssl: false
+- ssl
+services:
+- mysql:want
+auth_api: true
+webui: '[PROTO:ssl]://[HOST]:[PORT:9090]'
 ports:
   9090/tcp: 9090
 ports_description:
-  9090/tcp: HTTP listen port
+  9090/tcp: Sharry Web interface
+options:
+  conf_overrides: []
+  domain: homeassistant.local
+  ssl: false
+  certfile: fullchain.pem
+  keyfile: privkey.pem
+  default_language: us
+  share_max_size_gb: 1.5
+  share_max_valid_days: 365
+  server_secret: null
+  theme: light
+  log_level: info
 schema:
   conf_overrides:
   - property: match(^sharry[.]restserver[.][-.a-z0-9]+)
@@ -38,7 +46,9 @@ schema:
   copy_db_source: list(database|filesystem)?
   copy_db_target: list(database|filesystem)?
   domain: match([^\/:]+)
-  use_ssl: bool?
+  ssl: bool?
+  certfile: str?
+  keyfile: str?
   default_language: match([A-Za-z]{2})?
   share_max_size_gb: float(0.01,)?
   share_max_valid_days: int(1,)?
@@ -46,10 +56,4 @@ schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   theme: list(light|dark)?
   reset_database: bool?
-services:
-- mysql:want
-slug: sharry
-url: https://github.com/erdnaxela02/addon-sharry
-version: 1.1.1
-watchdog: http://[HOST]:9090/api/v2/open/info/version
-webui: http://[HOST]:[PORT:9090]
+image: ghcr.io/erdnaxela02/sharry/{arch}
