@@ -39,15 +39,9 @@ configuration:
   domain:
     name: Domain name
     description: The domain users will access Sharry at.
-  ssl:
+  use_ssl:
     name: Use an SSL connection
-    description: Enables/Disables SSL (HTTPS) on the web interface.
-  certfile:
-    name: Certificate file
-    description: The certificate file to use for SSL. Note that this file must exist in the /ssl/ folder.
-  keyfile:
-    name: Private key file
-    description: The private key file to use for SSL. Note that this file must exist in the /ssl/ folder.
+    description: If users will use SSL to access Sharry.
   default_language:
     name: Default language
     description: An ISO 3166-1 country code.

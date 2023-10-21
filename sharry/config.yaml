@@ -1,6 +1,6 @@
 name: Sharry
 url: https://github.com/erdnaxela02/addon-sharry
-version: 1.1.2
+version: 1.2.0
 slug: sharry
 arch:
 - aarch64
@@ -9,11 +9,10 @@ codenotary: erdnaxela02@hotmail.fr
 init: false
 map:
 - share:rw
-- ssl
 services:
 - mysql:want
 auth_api: true
-webui: '[PROTO:ssl]://[HOST]:[PORT:9090]'
+webui: http://[HOST]:[PORT:9090]
 ports:
   9090/tcp: 9090
 ports_description:
@@ -21,9 +20,7 @@ ports_description:
 options:
   conf_overrides: []
   domain: homeassistant.local
-  ssl: false
-  certfile: fullchain.pem
-  keyfile: privkey.pem
+  use_ssl: false
   default_language: us
   share_max_size_gb: 1.5
   share_max_valid_days: 365
@@ -46,9 +43,7 @@ schema:
   copy_db_source: list(database|filesystem)?
   copy_db_target: list(database|filesystem)?
   domain: match([^\/:]+)
-  ssl: bool?
-  certfile: str?
-  keyfile: str?
+  use_ssl: bool?
   default_language: match([A-Za-z]{2})?
   share_max_size_gb: float(0.01,)?
   share_max_valid_days: int(1,)?
