@@ -9,6 +9,7 @@
 - ⬆️ Update Addon Base Image to v15.0.6 @renovate (#31)
 - ⬆️ Update Addon Base Image to v15.0.7 @renovate (#33)
 - ⬆️ Update Addon Base Image to v15.0.8 @renovate (#35)
+- ⬆️ Update Addon Base Image to v16 and dependency-packages ([782c862](https://github.com/erdnaxela02/addon-sharry-dependency-less/commit/782c862aae672dc11eb0860319c85b9842844518))
 - ⬆️ Update alpine_3_19/openjdk17-jre to v17.0.10_p7-r0 @renovate (#28)
 - ⬆️ Update alpine_3_19/openjdk17-jre to v17.0.11_p9-r0 @renovate (#36)
 - ⬆️ Update alpine_3_19/nginx to v1.24.0-r15 @renovate (#32)
