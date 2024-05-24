@@ -1,10 +1,17 @@
 # What’s changed
-**Full Changelog**: https://github.com/erdnaxela02/addon-sharry/compare/v2.1.1...v2.2.0
-
-## 🔧 Maintenance
-- 📦 Prepare for Sharry 1.13.0 ([eecb6a8](https://github.com/erdnaxela02/addon-sharry/commit/eecb6a876297b28c840faf1dac849c3255eb6c08))
-- 🐛 Fix issue with login page auth ([9b23bb0](https://github.com/erdnaxela02/addon-sharry/commit/9b23bb073176eb57f40c699d6ad18243e9676d1b))
-- 🔧 Update .conf file to v1.13.0 ([125522b](https://github.com/erdnaxela02/addon-sharry/commit/125522bd6fb282ec45862194eabe5eb7ca6793bd))
+**Full Changelog**: https://github.com/erdnaxela02/addon-sharry/compare/v2.2.0...v2.2.1
 
 ## ⬆️ Dependency updates
-- ✨ Update Sharry to v1.13.0 @renovate (#14)
+- ✨ Update Sharry to v1.13.1 @renovate (#18)
+- ✨ Update Sharry to v1.13.2 @renovate (#23)
+- ⬆️ Update Addon Base Image to v15.0.4 @renovate (#15)
+- ⬆️ Update Addon Base Image to v15.0.5 @renovate (#16)
+- ⬆️ Update Addon Base Image to v15.0.6 @renovate (#20)
+- ⬆️ Update Addon Base Image to v15.0.7 @renovate (#22)
+- ⬆️ Update Addon Base Image to v15.0.8 @renovate (#24)
+- ⬆️ Update Addon Base Image to v16 and dependency-packages ([3b3bbed](https://github.com/erdnaxela02/addon-sharry/commit/3b3bbedae8f444b3666083230353b939fd64c3c3))
+- ⬆️ Update alpine_3_19/openjdk17-jre to v17.0.10_p7-r0 @renovate (#17)
+- ⬆️ Update alpine_3_19/openjdk17-jre to v17.0.11_p9-r0 @renovate (#25)
+- ⬆️ Update alpine_3_19/nginx to v1.24.0-r15 @renovate (#21)
+- ⬆️ Update alpine_3_19/nginx to v1.24.0-r16 @renovate (#26)
+- ⬆️ Update alpine_3_19/mariadb-client to v10.11.6-r0 @renovate (#19)
