@@ -69,6 +69,7 @@ Example add-on configuration:
 ```yaml
 domain: homeassistant.local
 use_ssl: false
+no_port_to_Base_URL: false
 default_language: us
 share_max_size_gb: 1.5
 share_max_valid_days: 365
@@ -179,27 +180,23 @@ de l'option `use_ssl` et du port que vous avez indiqué pour `9090`.
 Si le port n'est pas répertorié, l'add-on suppose que les utilisateurs
 n'incluent pas de port dans l'URL lorsqu'ils accèdent à Sharry.
 
-### Option: `ssl` (optional)
+### Option: `use_ssl` (optional)
 
-Active/Désactive SSL (HTTPS). Définissez-le sur `true` pour l'activer,
-sinon `false`.
+Défini le protocol 'http' par 'https' dans la base_url.
+A utiliser si les utilisateurs utilisent SSL pour accéder à Sharry.
+La valeur par défaut est `false -> (http)`.
 
-**Note**: _Les paramètres SSL s'appliquent uniquement à l'accès direct
-et n'ont aucun effet sur le service Ingress._
+**Note**: _L'activation de l'accès SSL est hors de portée pour Sharry.
+Cette option est pour les utilisateurs qui utilisent un proxy inverse
+et y activent les certificats SSL._
 
-### Option: `certfile` (optional)
+### Option: `no_port_to_Base_URL` (optional)
 
-Le fichier de certificat à utiliser pour SSL.
+Enlève le port de l'add-on de la base_url.
+La valeur par défaut est `false`.
 
-**Note**: _Le fichier DOIT être stocké dans `/ssl/`,
-qui est la valeur par défaut_
-
-### Option: `keyfile` (optional)
-
-Le fichier de clé privée à utiliser pour SSL.
-
-**Note**: _Le fichier DOIT être stocké dans `/ssl/`,
-qui est la valeur par défaut_
+**Note**: _Probablement necessaire si vous utilisez un proxy inverse
+et que l'URL d'accès a Sharry est du type `http(s)://domain.org`_
 
 ### Option: `access.add_port` (optional)
 
