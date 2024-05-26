@@ -5,4 +5,4 @@ I decide to remove NGINX in the add-on because now I prefer to use a reverse pro
 Sharry will therefore be accessible via 'http' on the local network and the use of a reverse proxy and a domain name will allow access to it from outside.
 
 ## 🐛 Maintenance
-- :rewind: Remove NGINX inside Add-on ([19e5ab2](https://github.com/erdnaxela02/addon-sharry/commit/19e5ab2d442b68260bbeeba3f491025b8389ba97))
+- ⏪ Remove NGINX inside Add-on ([19e5ab2](https://github.com/erdnaxela02/addon-sharry/commit/19e5ab2d442b68260bbeeba3f491025b8389ba97))
