@@ -1,8 +1,11 @@
 # What’s changed
-**Full Changelog**: https://github.com/erdnaxela02/addon-sharry-dependency-less/compare/v2.2.1...v3.0.0
+**Full Changelog**: https://github.com/erdnaxela02/addon-sharry-dependency-less/compare/v3.0.0...v3.1.0
 
-I decide to remove NGINX in the add-on because now I prefer to use a reverse proxy.
-Sharry will therefore be accessible via 'http' on the local network and the use of a reverse proxy and a domain name will allow access to it from outside.
+## 🔧 Maintenance
+- 🏗️ Prepare for Sharry 1.14.0 ([5feb72d](https://github.com/erdnaxela02/addon-sharry-dependency-less/commit/5feb72dd33f43928eed8be731d74a9ea35d57df4))
+- 🎨 Improvements of handles for non editable values ([8dad0f0](https://github.com/erdnaxela02/addon-sharry-dependency-less/commit/8dad0f0469b27fbec2c51f8975075b26a286f6ed))
+- 🔧 Missed update .conf on v1.13.2 ([3cbe9f0](https://github.com/erdnaxela02/addon-sharry-dependency-less/commit/3cbe9f0894eb01a70ea5dba80251bdc32ff8dd9c))
 
-## 🐛 Maintenance
-- ⏪ Remove NGINX inside Add-on ([3a96edd](https://github.com/erdnaxela02/addon-sharry-dependency-less/commit/3a96eddfd0a74f202f523f1b4476e1b0ad807bcb))
+## ⬆️ Dependency updates
+- ✨ Update Sharry to v1.14.0 @renovate (#41)
+- ⬆️ Update Addon Base Image to v16.0.1 @renovate (#40)
