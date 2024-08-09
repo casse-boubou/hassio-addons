@@ -1,8 +1,8 @@
 # What’s changed
-**Full Changelog**: https://github.com/erdnaxela02/addon-p2pool/compare/v3.0.0...v3.0.1
+**Full Changelog**: https://github.com/casse-boubou/addon-p2pool/compare/v3.0.0...v3.0.1
 
 ## 🐛 Maintenance
-- 🎆 Updates maintenance/license year to 2024 ([072aa68](https://github.com/erdnaxela02/addon-p2pool/commit/072aa68fd887c26df6c5f217f027dadc830a5faa))
+- 🎆 Updates maintenance/license year to 2024 ([072aa68](https://github.com/casse-boubou/addon-p2pool/commit/072aa68fd887c26df6c5f217f027dadc830a5faa))
 
 ## ⬆️ Dependency updates
 

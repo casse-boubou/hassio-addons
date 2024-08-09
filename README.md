@@ -15,7 +15,7 @@ Ou sinon vous pouvez copier cet URL et l'ajouter manuellement dans le
 add-on store de votre HA:
 
 ```txt
-https://github.com/erdnaxela02/hassio-addons
+https://github.com/casse-boubou/hassio-addons
 ```
 
 ## Add-ons disponible
@@ -113,8 +113,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-monerod]: https://github.com/erdnaxela02/addon-monerod/tree/v0.3.1
-[addon-doc-monerod]: https://github.com/erdnaxela02/addon-monerod/blob/v0.3.1/README.md
+[addon-monerod]: https://github.com/casse-boubou/addon-monerod/tree/v0.3.1
+[addon-doc-monerod]: https://github.com/casse-boubou/addon-monerod/blob/v0.3.1/README.md
 [monerod-version-shield]: https://img.shields.io/badge/version-v0.3.1-blue.svg
 [add-addon-monerod]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_monerod
 [monerod-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
@@ -123,8 +123,8 @@ SOFTWARE.
 [monerod-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [monerod-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 
-[addon-p2pool]: https://github.com/erdnaxela02/addon-p2pool/tree/v3.0.1
-[addon-doc-p2pool]: https://github.com/erdnaxela02/addon-p2pool/blob/v3.0.1/README.md
+[addon-p2pool]: https://github.com/casse-boubou/addon-p2pool/tree/v3.0.1
+[addon-doc-p2pool]: https://github.com/casse-boubou/addon-p2pool/blob/v3.0.1/README.md
 [p2pool-version-shield]: https://img.shields.io/badge/version-v3.0.1-blue.svg
 [add-addon-p2pool]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_p2pool
 [p2pool-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
@@ -133,8 +133,8 @@ SOFTWARE.
 [p2pool-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [p2pool-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 
-[addon-sharry]: https://github.com/erdnaxela02/addon-sharry/tree/v3.1.0
-[addon-doc-sharry]: https://github.com/erdnaxela02/addon-sharry/blob/v3.1.0/README.md
+[addon-sharry]: https://github.com/casse-boubou/addon-sharry/tree/v3.1.0
+[addon-doc-sharry]: https://github.com/casse-boubou/addon-sharry/blob/v3.1.0/README.md
 [sharry-version-shield]: https://img.shields.io/badge/version-v3.1.0-blue.svg
 [add-addon-sharry]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_sharry
 [sharry-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
@@ -143,8 +143,8 @@ SOFTWARE.
 [sharry-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [sharry-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 
-[addon-sharry-dependency-less]: https://github.com/erdnaxela02/addon-sharry-dependency-less/tree/v3.1.0
-[addon-doc-sharry-dependency-less]: https://github.com/erdnaxela02/addon-sharry-dependency-less/blob/v3.1.0/README.md
+[addon-sharry-dependency-less]: https://github.com/casse-boubou/addon-sharry-dependency-less/tree/v3.1.0
+[addon-doc-sharry-dependency-less]: https://github.com/casse-boubou/addon-sharry-dependency-less/blob/v3.1.0/README.md
 [sharry-dependency-less-version-shield]: https://img.shields.io/badge/version-v3.1.0-blue.svg
 [add-addon-sharry-dependency-less]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_sharry-dependency-less
 [sharry-dependency-less-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
@@ -155,9 +155,9 @@ SOFTWARE.
 
 [add-addon-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [add-repo-shield]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A//github.com/erdnaxela02/hassio-addons
-[license-shield]: https://img.shields.io/github/license/erdnaxela02/hassio-addons.svg
+[add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A//github.com/casse-boubou/hassio-addons
+[license-shield]: https://img.shields.io/github/license/casse-boubou/hassio-addons.svg
 [discord-ha]: https://discord.gg/c5DvZ4e
 [forum]: https://community.home-assistant.io/
 [HACF]: https://forum.hacf.fr/
-[Frosh]: https://github.com/erdnaxela02
+[Frosh]: https://github.com/casse-boubou

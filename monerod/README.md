@@ -73,12 +73,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE._
 [forum]: https://community.home-assistant.io
 [HACF]: https://forum.hacf.fr/
 
-[Frosh]: https://github.com/erdnaxela02
-[license]: https://github.com/erdnaxela02/addon-monerod/blob/main/LICENSE
-[license-shield]: https://img.shields.io/github/license/erdnaxela02/addon-monerod.svg
+[Frosh]: https://github.com/casse-boubou
+[license]: https://github.com/casse-boubou/addon-monerod/blob/main/LICENSE
+[license-shield]: https://img.shields.io/github/license/casse-boubou/addon-monerod.svg
 
-[releases]: https://github.com/erdnaxela02/addon-monerod/releases
-[releases-shield]: https://img.shields.io/github/v/release/erdnaxela02/addon-monerod
+[releases]: https://github.com/casse-boubou/addon-monerod/releases
+[releases-shield]: https://img.shields.io/github/v/release/casse-boubou/addon-monerod
 
 [TheMoneroProject]: https://github.com/monero-project
 [monerolicense]: https://github.com/monero-project/monero/blob/master/LICENSE

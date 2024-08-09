@@ -1,5 +1,5 @@
 name: Sharry-dependency-less
-url: https://github.com/erdnaxela02/addon-sharry-dependency-less
+url: https://github.com/casse-boubou/addon-sharry-dependency-less
 version: 3.1.0
 slug: sharry-dependency-less
 arch:
@@ -76,4 +76,4 @@ schema:
       HISTORY|DROP|EVENT|GRANT OPTION|INDEX|INSERT|LOCK TABLES|SELECT|SHOW VIEW|TRIGGER|UPDATE)?
     username: str
   reset_database: bool?
-image: ghcr.io/erdnaxela02/sharry-dependency-less/{arch}
+image: ghcr.io/casse-boubou/sharry-dependency-less/{arch}

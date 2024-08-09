@@ -1,5 +1,5 @@
 name: P2Pool
-url: https://github.com/erdnaxela02/addon-p2pool
+url: https://github.com/casse-boubou/addon-p2pool
 version: 3.0.1
 slug: p2pool
 arch:
@@ -34,4 +34,4 @@ schema:
   p2pool_UPnP_portstratum_forwarding: bool?
   p2pool_print_status: int(1,)?
   p2pool_loglevel: list(0|1|2|3|4|5|6)?
-image: ghcr.io/erdnaxela02/p2pool/{arch}
+image: ghcr.io/casse-boubou/p2pool/{arch}

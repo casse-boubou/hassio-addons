@@ -2,7 +2,7 @@
 
 ## Install
 
-D'habord ajoutez le repertoire à l'add-on store de HomeAssistant (`https://github.com/erdnaxela02/hassio-addons`):
+D'habord ajoutez le repertoire à l'add-on store de HomeAssistant (`https://github.com/casse-boubou/hassio-addons`):
 
 [![Open your Home Assistant instance and show the add add-on repository dialog
 with a specific repository URL pre-filled.][add-repo-shield]][add-repo]
@@ -341,9 +341,9 @@ SOFTWARE.
 
 [add-addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_sharry-dependency-less
 [add-addon-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ferdnaxela02%2Fhassio-addons
+[add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fcasse-boubou%2Fhassio-addons
 [add-repo-shield]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[default-config]: https://github.com/erdnaxela02/addon-sharry-dependency-less/blob/main/sharry/rootfs/etc/sharry/sharry.conf
+[default-config]: https://github.com/casse-boubou/addon-sharry-dependency-less/blob/main/sharry/rootfs/etc/sharry/sharry.conf
 [addon-mariadb]: https://github.com/home-assistant/addons/tree/master/mariadb
 [discord-ha]: https://discord.gg/c5DvZ4e
 [forum]: https://community.home-assistant.io
@@ -352,11 +352,11 @@ SOFTWARE.
 [hocon-docs-arrays]: https://github.com/lightbend/config/blob/master/README.md#set-array-values-outside-configuration-files
 [hocon-docs-props]: https://github.com/lightbend/config/blob/master/HOCON.md#java-properties-mapping
 [iso-3166-1]: https://en.wikipedia.org/wiki/ISO_3166-1
-[Frosh]: https://github.com/erdnaxela02
+[Frosh]: https://github.com/casse-boubou
 [mdegat01]: https://github.com/mdegat01
 [sharrylicense]: https://github.com/mdegat01/addon-sharry/blob/main/LICENSE
 [contributors]: https://github.com/mdegat01/addon-sharry/graphs/contributors
-[releases]: https://github.com/erdnaxela02/addon-sharry-dependency-less/releases
+[releases]: https://github.com/casse-boubou/addon-sharry-dependency-less/releases
 [sharry]: https://eikek.github.io/sharry/
 [sharry-docs-configure]: https://eikek.github.io/sharry/doc/configure
 [createuser]: https://mariadb.com/kb/en/library/create-user

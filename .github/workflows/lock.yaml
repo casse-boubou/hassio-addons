@@ -9,4 +9,4 @@ on:
 
 jobs:
   workflows:
-    uses: erdnaxela02/ha-addon-workflows/.github/workflows/lock.yaml@main
+    uses: casse-boubou/ha-addon-workflows/.github/workflows/lock.yaml@main

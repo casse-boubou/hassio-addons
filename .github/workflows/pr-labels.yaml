@@ -12,4 +12,4 @@ on:
 
 jobs:
   workflows:
-    uses: erdnaxela02/ha-addon-workflows/.github/workflows/pr-labels.yaml@main
+    uses: casse-boubou/ha-addon-workflows/.github/workflows/pr-labels.yaml@main

@@ -61,12 +61,12 @@ SOFTWARE.
 [forum]: https://community.home-assistant.io
 [HACF]: https://forum.hacf.fr/
 
-[Frosh]: https://github.com/erdnaxela02
-[license]: https://github.com/erdnaxela02/addon-p2pool/blob/main/LICENSE
-[license-shield]: https://img.shields.io/github/license/erdnaxela02/addon-p2pool
+[Frosh]: https://github.com/casse-boubou
+[license]: https://github.com/casse-boubou/addon-p2pool/blob/main/LICENSE
+[license-shield]: https://img.shields.io/github/license/casse-boubou/addon-p2pool
 
-[releases]: https://github.com/erdnaxela02/addon-p2pool/releases
-[releases-shield]: https://img.shields.io/github/v/release/erdnaxela02/addon-p2pool
+[releases]: https://github.com/casse-boubou/addon-p2pool/releases
+[releases-shield]: https://img.shields.io/github/v/release/casse-boubou/addon-p2pool
 
 [p2poolauthor]: https://github.com/SChernykh
 [p2poollicense]: https://github.com/SChernykh/p2pool/blob/master/LICENSE

@@ -1,5 +1,5 @@
 name: Sharry
-url: https://github.com/erdnaxela02/addon-sharry
+url: https://github.com/casse-boubou/addon-sharry
 version: 3.1.0
 slug: sharry
 arch:
@@ -53,4 +53,4 @@ schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   theme: list(light|dark)?
   reset_database: bool?
-image: ghcr.io/erdnaxela02/sharry/{arch}
+image: ghcr.io/casse-boubou/sharry/{arch}

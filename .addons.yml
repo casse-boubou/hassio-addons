@@ -2,18 +2,18 @@
 channel: stable
 addons:
   sharry:
-    repository: erdnaxela02/addon-sharry
+    repository: casse-boubou/addon-sharry
     target: sharry
-    image: ghcr.io/erdnaxela02/sharry/{arch}
+    image: ghcr.io/casse-boubou/sharry/{arch}
   sharry-dependency-less:
-    repository: erdnaxela02/addon-sharry-dependency-less
+    repository: casse-boubou/addon-sharry-dependency-less
     target: sharry
-    image: ghcr.io/erdnaxela02/sharry-dependency-less/{arch}
+    image: ghcr.io/casse-boubou/sharry-dependency-less/{arch}
   p2pool:
-    repository: erdnaxela02/addon-p2pool
+    repository: casse-boubou/addon-p2pool
     target: p2pool
-    image: ghcr.io/erdnaxela02/p2pool/{arch}
+    image: ghcr.io/casse-boubou/p2pool/{arch}
   monerod:
-    repository: erdnaxela02/addon-monerod
+    repository: casse-boubou/addon-monerod
     target: monerod
-    image: ghcr.io/erdnaxela02/monerod/{arch}
+    image: ghcr.io/casse-boubou/monerod/{arch}

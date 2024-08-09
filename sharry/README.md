@@ -76,7 +76,7 @@ SOFTWARE.
 > > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > > SOFTWARE._
 
-[Frosh]: https://github.com/erdnaxela02
+[Frosh]: https://github.com/casse-boubou
 [mdegat01]: https://github.com/mdegat01
 [sharrylicense]: https://github.com/mdegat01/addon-sharry/blob/main/LICENSE
 [contributors]: https://github.com/mdegat01/addon-sharry/graphs/contributors
@@ -89,5 +89,5 @@ SOFTWARE.
 [license]: https://github.com/mdegat01/addon-sharry/blob/main/LICENSE
 [license-shield]: https://img.shields.io/github/license/mdegat01/addon-sharry.svg
 
-[releases]: https://github.com/erdnaxela02/addon-sharry/releases
-[releases-shield]: https://img.shields.io/github/v/release/erdnaxela02/addon-sharry
+[releases]: https://github.com/casse-boubou/addon-sharry/releases
+[releases-shield]: https://img.shields.io/github/v/release/casse-boubou/addon-sharry

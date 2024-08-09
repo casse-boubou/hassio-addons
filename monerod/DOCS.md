@@ -7,7 +7,7 @@ HomeAssistant sur RaspBerry Pi 4.
 
 ## Installation
 
-D'habord ajoutez le repertoire à l'add-on store de HomeAssistant (`https://github.com/erdnaxela02/hassio-addons`):
+D'habord ajoutez le repertoire à l'add-on store de HomeAssistant (`https://github.com/casse-boubou/hassio-addons`):
 
 [![Open your Home Assistant instance and show the add add-on repository dialog
 with a specific repository URL pre-filled.][add-repo-shield]][add-repo]
@@ -174,16 +174,16 @@ SOFTWARE.
 
 [add-addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_monerod
 [add-addon-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ferdnaxela02%2Fhassio-addons
+[add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fcasse-boubou%2Fhassio-addons
 [add-repo-shield]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
 [discord-ha]: https://discord.gg/c5DvZ4e
 [forum]: https://community.home-assistant.io
 [hacf]: https://forum.hacf.fr/
-[Frosh]: https://github.com/erdnaxela02
-[releases]: https://github.com/erdnaxela02/addon-monerod/releases
+[Frosh]: https://github.com/casse-boubou
+[releases]: https://github.com/casse-boubou/addon-monerod/releases
 [getmonero]: https://www.getmonero.org/
 [datadir]: https://monerodocs.org/interacting/overview/#data-directory
 [themoneroproject]: https://github.com/monero-project
 [monerolicense]: https://github.com/monero-project/monero/blob/master/LICENSE
-[default-config]: https://github.com/erdnaxela02/addon-monerod/blob/main/monerod/rootfs/etc/monerod/bitmonero.conf
+[default-config]: https://github.com/casse-boubou/addon-monerod/blob/main/monerod/rootfs/etc/monerod/bitmonero.conf
 [p2pool]: https://github.com/SChernykh/p2pool
