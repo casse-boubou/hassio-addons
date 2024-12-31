@@ -50,6 +50,21 @@ P2pool pour HomeAssistant
 
 [:books: P2Pool add-on documentation][addon-doc-p2pool]
 
+### &#10003; [Rustdesk-Server][addon-rustdesk-server]
+
+![Latest Version][rustdesk-server-version-shield]
+![Supports armhf Architecture][rustdesk-server-armhf-shield]
+![Supports armv7 Architecture][rustdesk-server-armv7-shield]
+![Supports aarch64 Architecture][rustdesk-server-aarch64-shield]
+![Supports amd64 Architecture][rustdesk-server-amd64-shield]
+![Supports i386 Architecture][rustdesk-server-i386-shield]
+
+Rustdesk-Server pour HomeAssistant
+
+[![Open your Home Assistant instance and show the dashboard of a Supervisor add-on.][add-addon-shield]][add-addon-rustdesk-server]
+
+[:books: Rustdesk-Server add-on documentation][addon-doc-rustdesk-server]
+
 ### &#10003; [Sharry][addon-sharry]
 
 ![Latest Version][sharry-version-shield]
@@ -132,6 +147,16 @@ SOFTWARE.
 [p2pool-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [p2pool-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [p2pool-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+
+[addon-rustdesk-server]: https://github.com/casse-boubou/addon-rustdesk-server/tree/v0.1.0
+[addon-doc-rustdesk-server]: https://github.com/casse-boubou/addon-rustdesk-server/blob/v0.1.0/README.md
+[rustdesk-server-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[add-addon-rustdesk-server]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_rustdesk-server
+[rustdesk-server-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[rustdesk-server-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
+[rustdesk-server-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[rustdesk-server-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[rustdesk-server-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 
 [addon-sharry]: https://github.com/casse-boubou/addon-sharry/tree/v3.1.0
 [addon-doc-sharry]: https://github.com/casse-boubou/addon-sharry/blob/v3.1.0/README.md
