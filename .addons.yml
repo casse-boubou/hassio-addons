@@ -17,3 +17,7 @@ addons:
     repository: casse-boubou/addon-monerod
     target: monerod
     image: ghcr.io/casse-boubou/monerod/{arch}
+  rustdesk-server:
+    repository: casse-boubou/addon-rustdesk-server
+    target: rustdesk-server
+    image: ghcr.io/casse-boubou/rustdesk-server/{arch}
