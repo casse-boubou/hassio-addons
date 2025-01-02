@@ -1,9 +1,9 @@
 # What’s changed
+**Full Changelog**: https://github.com/casse-boubou/addon-rustdesk-server/compare/v0.1.0...v0.1.1
 
-### 🎉 Initial commit https://github.com/casse-boubou/addon-rustdesk-server/commit/708edcdd765ce868e07993da422217dae944101c
+## 🚀 Ajouts
+🔊 Add print version in log https://github.com/casse-boubou/addon-rustdesk-server/commit/93daec2b7714afcde2567e838c1104042f3bea64
 
 ## 🐛 Maintenance
-- Add renovate https://github.com/casse-boubou/addon-rustdesk-server/commit/03879a71f4c5a89c721b5de826358c277906fd5a
-- 📝 Add README and DOCS https://github.com/casse-boubou/addon-rustdesk-server/commit/07e10ee1a335570c74ad635cbe0975b5ce9625c3
-- 💬 Add Icon, LOGO and translation https://github.com/casse-boubou/addon-rustdesk-server/commit/40e65f6efba4088bd2ee761db0dc8c0caacbc611
-- 👷 Add github Workflows and update Renovate https://github.com/casse-boubou/addon-rustdesk-server/commit/38d425d9d042fe5ef8b1a122cc805455864c5a2d
+- 📝 fix auto add button url https://github.com/casse-boubou/addon-rustdesk-server/commit/380f4f36799b5e4c5d7f16c40a2874a6b6ea55ec
+- 💄 Reorganise config port https://github.com/casse-boubou/addon-rustdesk-server/commit/0accff0e4f9381b88837a0ce2e3dc128214b4d69
