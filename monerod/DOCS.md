@@ -32,9 +32,6 @@ db_sync_mode: safe
 
 **Note**: _Ceci n'est qu'un exemple, ne le copier-coller pas ! Crée le votre!_
 
-**Note**: _Les options `enable-dns-blocklist`, `disable-dns-checkpoints` et `zmq-pub`
-sont défini par défaut pour fonctionner avec [P2pool][p2pool]_
-
 ### Option: `monerod_conf_overrides` (optional)
 
 Cette option vous permet de fournir une option de configuration pour personnaliser
@@ -124,7 +121,7 @@ Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
 
 MIT License
 
-Copyright (c) 2022-2024 [Frosh][Frosh]
+Copyright (c) 2022-2025 [Frosh][Frosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -186,4 +183,3 @@ SOFTWARE.
 [themoneroproject]: https://github.com/monero-project
 [monerolicense]: https://github.com/monero-project/monero/blob/master/LICENSE
 [default-config]: https://github.com/casse-boubou/addon-monerod/blob/main/monerod/rootfs/etc/monerod/bitmonero.conf
-[p2pool]: https://github.com/SChernykh/p2pool
