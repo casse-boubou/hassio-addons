@@ -1,6 +1,6 @@
 name: P2Pool
 url: https://github.com/casse-boubou/addon-p2pool
-version: 3.0.1
+version: 3.1.0
 slug: p2pool
 arch:
 - aarch64
@@ -16,6 +16,8 @@ ports_description:
   3333/tcp: Port open for mining witht external xmrig
   37889/tcp: P2Pool p2p port
   37888/tcp: P2Pool mini p2p port
+map:
+- addon_config:rw
 options:
   p2pool_conf_overrides:
   - property: no-cache
