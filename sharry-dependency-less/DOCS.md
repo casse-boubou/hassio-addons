@@ -274,6 +274,13 @@ recommandé, mais si vous souhaitez autoriser d'autres applications à afficher 
 base de données, il convient de créer un utilisateur limité à un accès en lecture
 seule sur la base de données.
 
+### Option: `mariadb_server_args` (optional)
+
+Certains utilisateurs ont connu des [erreurs][migration-issues] lors des mises à jour du schéma HomeAssistant sur de grandes bases de données.
+Définir le paramètres recommandés peut aider en cas de RAM disponible.
+
+Example: `--innodb_buffer_pool_size=512M`
+
 ## Changelog & Releases
 
 Vous pouvez consulter le changelog [GitHub ici][releases].
@@ -362,3 +369,4 @@ SOFTWARE.
 [createuser]: https://mariadb.com/kb/en/library/create-user
 [username]: https://mariadb.com/kb/en/library/create-user/#user-name-component
 [grant]: https://mariadb.com/kb/en/library/grant
+[migration-issues]: https://github.com/home-assistant/core/issues/125339

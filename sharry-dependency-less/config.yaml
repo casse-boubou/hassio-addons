@@ -1,6 +1,6 @@
 name: Sharry-dependency-less
 url: https://github.com/casse-boubou/addon-sharry-dependency-less
-version: 3.2.0
+version: 3.3.0
 slug: sharry-dependency-less
 arch:
 - aarch64
@@ -75,5 +75,8 @@ schema:
     - list(ALTER|CREATE|CREATE ROUTINE|CREATE TEMPORARY TABLES|CREATE VIEW|DELETE|DELETE
       HISTORY|DROP|EVENT|GRANT OPTION|INDEX|INSERT|LOCK TABLES|SELECT|SHOW VIEW|TRIGGER|UPDATE)?
     username: str
+  mariadb_server_args:
+  - str?
   reset_database: bool?
+timeout: 300
 image: ghcr.io/casse-boubou/sharry-dependency-less/{arch}
