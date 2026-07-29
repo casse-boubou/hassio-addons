@@ -153,10 +153,10 @@ SOFTWARE.
 [rustdesk-server-version-shield]: https://img.shields.io/badge/version-v0.2.1-blue.svg
 [add-addon-rustdesk-server]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_rustdesk-server
 [rustdesk-server-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[rustdesk-server-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
+[rustdesk-server-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [rustdesk-server-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [rustdesk-server-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[rustdesk-server-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[rustdesk-server-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 
 [addon-sharry]: https://github.com/casse-boubou/addon-sharry/tree/v3.3.0
 [addon-doc-sharry]: https://github.com/casse-boubou/addon-sharry/blob/v3.3.0/README.md
