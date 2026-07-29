@@ -1,11 +1,11 @@
-# Home Assistant Add-on: RustDesk-Server
+# Home Assistant App: RustDesk-Server
 
 [![GitHub Release][releases-shield]][releases]
 [![License][license-shield]][license]
 
 ## About
 
-Cet add-on vous permet d'auto-hébergez votre propre serveur RustDesk sur votre HomeAssistant sur RaspBerry Pi 4.
+Cet app vous permet d'auto-hébergez votre propre serveur RustDesk sur votre HomeAssistant sur RaspBerry Pi 4.
 Si vous utilisez RustDesk, vous devriez avoir votre propre server RustDesk.
 Les serveurs publics Rustdesk sont destinés à des fins de test et de recherche et ne sont pas équipés pour gérer de grandes quantités de trafic.
 Cela signifie que le temps nécessaire pour établir une connexion via les serveurs publics peut varier considérablement et parfois même échouer si le serveur est surchargé.
@@ -14,7 +14,7 @@ De plus, si la perforation échoue un jour et que la connexion est acheminée vi
 ## Support
 
 Je ne suis pas dévellopeur, n'ai aucune formation de code, je suis simplement autodidact.
-Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
+Si vous avez une question concernant HA et ses apps vous pouvez consulter:
 
 - [Le Forum communautaire francophone][HACF] de HomeAssistant
 - [Le Forum communautaire anglophone][forum] de HomeAssistant.
@@ -24,7 +24,7 @@ Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
 
 MIT License
 
-Copyright (c) 2025 [Frosh][Frosh]
+Copyright (c) 2026 [Frosh][Frosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
