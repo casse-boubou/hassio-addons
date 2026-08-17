@@ -1,8 +1,8 @@
-# Home Assistant Add-on: P2pool
+# Home Assistant App: P2pool
 
 ## About
 
-Cet Addon vous permettra l'execution d'un pool décentralisé [p2pool][p2pool] sur
+Cet App vous permettra l'execution d'un pool décentralisé [p2pool][p2pool] sur
 votre HomeAssistant sur RaspBerry Pi 4.
 
 Pour toutes options de configuration et possibilitées d'applications, merci de vous
@@ -10,18 +10,18 @@ renseigner sur la page du projet [p2pool][p2pool].
 
 ## Installation
 
-D'habord ajoutez le repertoire à l'add-on store de HomeAssistant (`https://github.com/casse-boubou/hassio-addons`):
+D'habord ajoutez le repertoire à l'app store de HomeAssistant (`https://github.com/casse-boubou/hassio-addons`):
 
-[![Open your Home Assistant instance and show the add add-on repository dialog
+[![Open your Home Assistant instance and show the add app repository dialog
 with a specific repository URL pre-filled.][add-repo-shield]][add-repo]
 
 Ensuite recherchez P2pool dans le store et cliquez sur installer:
 
-[![Open your Home Assistant instance and show the dashboard of a Supervisor add-on.][add-addon-shield]][add-addon]
+[![Open your Home Assistant instance and show the dashboard of a Supervisor app.][add-app-shield]][add-app]
 
 ## Configuration
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 p2pool_conf_overrides:
@@ -45,7 +45,7 @@ des resources mémoire._
 
 Cette option vous permet de fournir une option de configuration pour personnaliser
 les configutaions avancées de P2pool qui n'ont pas été prédéfinit en tant qu'options
-d'addon paramétrable.
+d'app paramétrable.
 
 Vous pouvez voir l'ensemble complet des options disponibles ici :
 
@@ -100,7 +100,7 @@ Activez ou désactivez le transfert du port UPnP Stratum (port 3333).
 
 ### Option: `p2pool_print_status` (optional)
 
-Interval de temps, en minutes, pour lequel l'addon va afficher le statut du pool.
+Interval de temps, en minutes, pour lequel l'app va afficher le statut du pool.
 Le statut Stratum Server sera affiché tout les X minutes (X étant la valeur défini).
 Le statut Sidechain quand à lui sera affiché avec un interval minimum de 2h.
 
@@ -128,7 +128,7 @@ Vous pouvez consulter le changelog [GitHub ici][releases].
 ## Support
 
 Je ne suis pas dévellopeur, n'ai aucune formation de code, je suis simplement autodidact.
-Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
+Si vous avez une question concernant HA et ses apps vous pouvez consulter:
 
 - [Le Forum communautaire francophone][hacf] de HomeAssistant
 - [Le Forum communautaire anglophone][forum] de HomeAssistant.
@@ -138,7 +138,7 @@ Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
 
 MIT License
 
-Copyright (c) 2023-2025 [Frosh][Frosh]
+Copyright (c) 2023-2026 [Frosh][Frosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -173,8 +173,8 @@ SOFTWARE.
 > > _3. You should have received a copy of the GNU General Public License
 > > along with this program. If not, see <https://www.gnu.org/licenses>._
 
-[add-addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_p2pool
-[add-addon-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[add-app]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_p2pool
+[add-app-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fcasse-boubou%2Fhassio-addons
 [add-repo-shield]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
 [discord-ha]: https://discord.gg/c5DvZ4e

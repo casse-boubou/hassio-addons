@@ -1,16 +1,16 @@
-# Home Assistant Add-on: P2pool
+# Home Assistant App: P2pool
 
 [![GitHub Release][releases-shield]][releases]
 [![License][license-shield]][license]
 
 ## About
 
-Cet Addon vous permettra l'execution d'un pool décentralisé [p2pool][p2pool] sur votre HomeAssistant sur RaspBerry Pi 4.
+Cet App vous permettra l'execution d'un pool décentralisé [p2pool][p2pool] sur votre HomeAssistant sur RaspBerry Pi 4.
 
 ## Support
 
 Je ne suis pas dévellopeur, n'ai aucune formation de code, je suis simplement autodidact.
-Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
+Si vous avez une question concernant HA et ses apps vous pouvez consulter:
 
 - [Le Forum communautaire francophone][HACF] de HomeAssistant
 - [Le Forum communautaire anglophone][forum] de HomeAssistant.
@@ -20,7 +20,7 @@ Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
 
 MIT License
 
-Copyright (c) 2023-2025 [Frosh][Frosh]
+Copyright (c) 2023-2026 [Frosh][Frosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

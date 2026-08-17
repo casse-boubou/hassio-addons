@@ -1,11 +1,10 @@
 name: P2Pool
 url: https://github.com/casse-boubou/addon-p2pool
-version: 3.2.0
+version: 3.3.0
 slug: p2pool
 arch:
 - aarch64
 description: P2pool pour HomeAssistant
-codenotary: erdnaxela02@hotmail.fr
 init: false
 auth_api: true
 ports:
@@ -17,7 +16,7 @@ ports_description:
   37889/tcp: P2Pool p2p port
   37888/tcp: P2Pool mini p2p port
 map:
-- addon_config:rw
+- app_config:rw
 options:
   p2pool_conf_overrides:
   - property: no-cache
