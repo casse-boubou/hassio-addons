@@ -1,4 +1,4 @@
-# Home Assistant Add-on: Sharry dependency-less
+# Home Assistant App: Sharry dependency-less
 
 [![GitHub Release][releases-shield]][releases]
 [![License][license-shield]][license]
@@ -9,9 +9,9 @@
 
 Ce projet est un fork du projet original de [Mike Degatano][mike-sharry] auquel j'ai rajouter la possibilitée de stocker les fichier directement dans un dossier local ainsi que de copier la base de donnée de Mariadb à un stockage local ou inversement.
 
-Il s'agit ici d'une version modifier [de cet add-on][addon-sharry] dans laquelle l'add-on Maria db est integrer.
+Il s'agit ici d'une version modifier [de cet app][app-sharry] dans laquelle l'app Maria db est integrer.
 
-Cet add-on permet un partage de fichiers rapidement et facilement.
+Cet app permet un partage de fichiers rapidement et facilement.
 Vous glisser et déposez des fichiers et obtenez un lien que vous pouvez partager avec n'importe qui.
 Vous pouvez également créer et partager des liens avec d'autres personnes qu'elles utiliseront pour partager des fichiers avec vous.
 Toute personne disposant d'un lien de partage peut y accéder, mais seulement les utilisateurs authentifiée peuvent créer de nouveaux liens de partage.
@@ -21,7 +21,7 @@ Il a également quelques fonctionnalités intéressantes comme les téléchargem
 ## Support
 
 Je ne suis pas dévellopeur, n'ai aucune formation de code, je suis simplement autodidact.
-Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
+Si vous avez une question concernant HA et ses apps vous pouvez consulter:
 
 - [Le Forum communautaire francophone][HACF] de HomeAssistant
 - [Le Forum communautaire anglophone][forum] de HomeAssistant.
@@ -37,7 +37,7 @@ Pour une liste complète des auteurs et contributeurs merci de consulter la [pag
 
 MIT License
 
-Copyright (c) 2022-2025 [Frosh][Frosh]
+Copyright (c) 2022-2026 [Frosh][Frosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -94,4 +94,4 @@ SOFTWARE.
 
 [releases]: https://github.com/casse-boubou/addon-sharry-dependency-less/releases
 [releases-shield]: https://img.shields.io/github/v/release/casse-boubou/addon-sharry-dependency-less
-[addon-sharry]:https://github.com/casse-boubou/addon-sharry
+[app-sharry]:https://github.com/casse-boubou/addon-sharry

@@ -44,7 +44,7 @@ configuration:
     description: Change 'http' to 'https' in the base_url.
   no_port_to_Base_URL:
     name: Remove port from base_url
-    description: Remove the add-on port from the base_url (maybe necessary if you use a reverse proxy).
+    description: Remove the app port from the base_url (maybe necessary if you use a reverse proxy).
   default_language:
     name: Default language
     description: An ISO 3166-1 country code.
