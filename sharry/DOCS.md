@@ -1,15 +1,15 @@
-# Home Assistant Add-on: Sharry
+# Home Assistant App: Sharry
 
 ## Install
 
-D'habord ajoutez le repertoire à l'add-on store de HomeAssistant (`https://github.com/casse-boubou/hassio-addons`):
+D'habord ajoutez le repertoire à l'app store de HomeAssistant (`https://github.com/casse-boubou/hassio-addons`):
 
-[![Open your Home Assistant instance and show the add add-on repository dialog
+[![Open your Home Assistant instance and show the add app repository dialog
 with a specific repository URL pre-filled.][add-repo-shield]][add-repo]
 
 Ensuite recherchez Sharry dans le store et cliquez sur installer:
 
-[![Open your Home Assistant instance and show the dashboard of a Supervisor add-on.][add-addon-shield]][add-addon]
+[![Open your Home Assistant instance and show the dashboard of a Supervisor app.][add-app-shield]][add-app]
 
 ## Access & Login
 
@@ -18,7 +18,7 @@ défaut. Cela signifie que tout utilisateur HA peut ouvrir l'interface
 utilisateur et se connecter avec ses informations d'identification HA.
 Chaque utilisateur HA aura son propre compte dans Sharry et ses propres partages.
 
-L'add-on est configuré pour que toutes les autres méthodes de connexion et
+L'app est configuré pour que toutes les autres méthodes de connexion et
 d'enregistrement de nouveaux utilisateurs par défaut soient désactivées.
 Si vous souhaitez autoriser les utilisateurs à avoir des comptes uniquement
 avec Sharry, vous pouvez activer l'enregistrement d'utilisateurs et d'autres
@@ -32,12 +32,12 @@ Pour plus d'information vous pouvez consulter [Sharry coniguration][sharry-docs-
 
 [Sharry][sharry] nécessite une base de données Postgres ou MariaDB pour
 stocker ses données. Par défaut, il stockera ses données dans
-l'[addon MariaDB][addon-mariadb]. Cet add-on doit être installé et en cours
+l'[app MariaDB][app-mariadb]. Cet app doit être installé et en cours
 d'exécution avant le démarrage. Vous n'avez besoin d'aucune configuration
-supplémentaire pour cela, tant que l'add-on MariaDB est en cours d'execution,
+supplémentaire pour cela, tant que l'app MariaDB est en cours d'execution,
 Sharry pourra l'utiliser.
 
-[![Open your Home Assistant instance and show the dashboard of a Supervisor add-on.][add-addon-shield]][add-addon-mariadb]
+[![Open your Home Assistant instance and show the dashboard of a Supervisor app.][add-app-shield]][add-app-mariadb]
 
 Si vous le préférez, vous pouvez utiliser une base de données distante en
 remplissant toutes les options `remote_db_*` ci-dessous. Vous devrez créer
@@ -64,7 +64,7 @@ sauvegarder le dossier local
 
 ## Configuration
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 domain: homeassistant.local
@@ -100,7 +100,7 @@ des problèmes avec votre instance. À UTILISER À VOS RISQUES ET PÉRILS!_
 Celles-ci sont sensibles à la casse et tous les éléments définis par une
 configuration spécifique seront prioritaires. Ceux qui ne peuvent pas être
 remplacés sont signalés par un commentaire
-dans la [configuration par défaut][default-config] que cet add-on utilise.
+dans la [configuration par défaut][default-config] que cet app utilise.
 
 #### Sub-option: `conf_overrides.property` (required)
 
@@ -161,7 +161,7 @@ Par défaut `Sharry`
 A définir si vous souhaiter activer la copie des données partagées
 d'une base de données mariadb/postgres vers un stockage locale
 ou inversement.
-La copie est effectuée au démarrage de l'add-on.
+La copie est effectuée au démarrage de l'app.
 
 ### Option: `copy_db_source` (optional)
 
@@ -177,7 +177,7 @@ Le nom de domaine à partir duquel les utilisateurs accèderont à Sharry.
 Sharry reçoit une URL de base qu'elle utilise pour générer des URL et
 configurer des cookies. Cela sera créé à partir de cette option,
 de l'option `use_ssl` et du port que vous avez indiqué pour `9090`.
-Si le port n'est pas répertorié, l'add-on suppose que les utilisateurs
+Si le port n'est pas répertorié, l'app suppose que les utilisateurs
 n'incluent pas de port dans l'URL lorsqu'ils accèdent à Sharry.
 
 ### Option: `use_ssl` (optional)
@@ -192,7 +192,7 @@ et y activent les certificats SSL._
 
 ### Option: `no_port_to_Base_URL` (optional)
 
-Enlève le port de l'add-on de la base_url.
+Enlève le port de l'app de la base_url.
 La valeur par défaut est `false`.
 
 **Note**: _Probablement necessaire si vous utilisez un proxy inverse
@@ -228,13 +228,13 @@ hexadécimale ou `b64:` pour utiliser une valeur encodée en base64.
 ### Option: `reset_database` (optional)
 
 Définir sur `true` pour supprimer et recréer la base de données au démarrage.
-Comme les données sont conservées dans l'addon MariaDB, elles ne sont pas
+Comme les données sont conservées dans l'app MariaDB, elles ne sont pas
 supprimées lors d'une désinstallation.
 
 **Note**: _Cette option s'applique **uniquement** si vous utilisez le module
 complémentaire MariaDB, il n'essaiera pas de supprimer une base de
 données MySQL distante. De plus, une fois la base de données réinitialisée,
-cette option de configuration sera automatiquement désactivée pour l'addon._
+cette option de configuration sera automatiquement désactivée pour l'app._
 
 ## Changelog & Releases
 
@@ -243,7 +243,7 @@ Vous pouvez consulter le changelog [GitHub ici][releases].
 ## Support
 
 Je ne suis pas dévellopeur, n'ai aucune formation de code, je suis simplement autodidact.
-Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
+Si vous avez une question concernant HA et ses apps vous pouvez consulter:
 
 - [Le Forum communautaire francophone][hacf] de HomeAssistant
 - [Le Forum communautaire anglophone][forum] de HomeAssistant.
@@ -260,7 +260,7 @@ la [page des contributeurs][contributors].
 
 MIT License
 
-Copyright (c) 2022-2025 [Frosh][Frosh]
+Copyright (c) 2022-2026 [Frosh][Frosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -301,12 +301,12 @@ SOFTWARE.
 > > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > > SOFTWARE._
 
-[add-addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_sharry
-[add-addon-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[add-app]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_sharry
+[add-app-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fcasse-boubou%2Fhassio-addons
 [add-repo-shield]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
-[add-addon-mariadb]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_mariadb
-[addon-mariadb]: https://github.com/home-assistant/addons/tree/master/mariadb
+[add-app-mariadb]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_mariadb
+[app-mariadb]: https://github.com/home-assistant/addons/tree/master/mariadb
 [default-config]: https://github.com/casse-boubou/addon-sharry/blob/main/sharry/rootfs/etc/sharry/sharry.conf
 [discord-ha]: https://discord.gg/c5DvZ4e
 [forum]: https://community.home-assistant.io

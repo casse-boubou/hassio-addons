@@ -44,7 +44,7 @@ configuration:
     description: Change 'http' en 'https' dans la base_url.
   no_port_to_Base_URL:
     name: Retire le port de la base_url
-    description: Retire le port de l'add-on de la base_url (probablement nécessaire si vous utilisez un proxy inverse)
+    description: Retire le port de l'app de la base_url (probablement nécessaire si vous utilisez un proxy inverse)
   default_language:
     name: Langue
     description: Un code pays ISO 3166-1 pour la langue de Sharry.

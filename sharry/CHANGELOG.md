@@ -1,13 +1,14 @@
-# What’s changed
-**Full Changelog**: https://github.com/erdnaxela02/addon-sharry/compare/v3.2.0...v3.3.0
+## What’s changed
+**Full Changelog**: https://github.com/erdnaxela02/addon-sharry-dependency-less/compare/v3.3.0...v3.4.0
+## 📚 Documentation
+
+- Refactoring and renaming add ons to apps @casse-boubou (#61)
 
 ## ⬆️ Dependency updates
 
-- ✨ Update Sharry to v1.15.0 @[renovate[bot]](https://github.com/apps/renovate) (#56)
-- ⬆️ Update Addon Base Image to v17.1.0 @[renovate[bot]](https://github.com/apps/renovate) (#44)
-- ⬆️ Update Addon Base Image to v17.2.0 @[renovate[bot]](https://github.com/apps/renovate) (#45)
-- ⬆️ Update Addon Base Image to v17.2.1 @[renovate[bot]](https://github.com/apps/renovate) (#47)
-- ⬆️ Update Addon Base Image to v17.2.4 @[renovate[bot]](https://github.com/apps/renovate) (#49)
-- ⬆️ Update alpine_3_21/openjdk17-jre to v17.0.14_p7-r0 @[renovate[bot]](https://github.com/apps/renovate) (#46)
-- ⬆️ Update alpine_3_21/mariadb-client to v11.4.5-r0 @[renovate[bot]](https://github.com/apps/renovate) (#48)
-- ⬆️ Update internal packages @[renovate[bot]](https://github.com/apps/renovate) (#55)
+- ⬆️ Update Addon Base Image to v18.2.1 @[renovate[bot]](https://github.com/apps/renovate) (#57)
+- ⬆️ Update Addon Base Image to v19 @[renovate[bot]](https://github.com/apps/renovate) (#60)
+- ⬆️ Update App Base Image to v21.0.2 @[renovate[bot]](https://github.com/apps/renovate) (#65)
+- Migrate Renovate config @[renovate[bot]](https://github.com/apps/renovate) (#59)
+- ⬆️ Update alpine_3_22/openjdk17-jre to v17.0.17_p10-r0 @[renovate[bot]](https://github.com/apps/renovate) (#58)
+- ✨ Update Sharry to v1.16.0 @[renovate[bot]](https://github.com/apps/renovate) (#62)

@@ -1,11 +1,10 @@
 name: Sharry
 url: https://github.com/casse-boubou/addon-sharry
-version: 3.3.0
+version: 3.3.1
 slug: sharry
 arch:
 - aarch64
 description: Sharry pour Home Assistant
-codenotary: erdnaxela02@hotmail.fr
 init: false
 map:
 - share:rw
