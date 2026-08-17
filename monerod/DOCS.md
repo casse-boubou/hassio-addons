@@ -1,24 +1,24 @@
-# Home Assistant Add-on: Monerod
+# Home Assistant App: Monerod
 
 ## About
 
-Cet Addon vous permettra l'execution d'un noeud [Monerod][getmonero] sur votre
+Cet App vous permettra l'execution d'un noeud [Monerod][getmonero] sur votre
 HomeAssistant sur RaspBerry Pi 4.
 
 ## Installation
 
-D'habord ajoutez le repertoire à l'add-on store de HomeAssistant (`https://github.com/casse-boubou/hassio-addons`):
+D'habord ajoutez le repertoire à l'app store de HomeAssistant (`https://github.com/casse-boubou/hassio-addons`):
 
-[![Open your Home Assistant instance and show the add add-on repository dialog
+[![Open your Home Assistant instance and show the add app repository dialog
 with a specific repository URL pre-filled.][add-repo-shield]][add-repo]
 
 Ensuite recherchez Monerod dans le store et cliquez sur installer:
 
-[![Open your Home Assistant instance and show the dashboard of a Supervisor add-on.][add-addon-shield]][add-addon]
+[![Open your Home Assistant instance and show the dashboard of a Supervisor app.][add-app-shield]][add-app]
 
 ## Configuration
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 monerod_conf_overrides:
@@ -36,7 +36,7 @@ db_sync_mode: safe
 
 Cette option vous permet de fournir une option de configuration pour personnaliser
 les configutaions avancées de Monerod qui n'ont pas été prédéfinit en tant qu'options
-d'addon paramétrable.
+d'app paramétrable.
 
 Vous pouvez voir l'ensemble complet des options disponibles ici :
 
@@ -57,7 +57,7 @@ peut éventuellement entraîner des problèmes avec votre instance.
 À UTILISER À VOS RISQUES ET PÉRILS!_
 
 Celles-ci sont sensibles à la casse. Vous pouvez consulter la
-[configuration par défaut][default-config] que cet add-on utilise.
+[configuration par défaut][default-config] que cet app utilise.
 
 ### Option: `data_dir` (required)
 
@@ -111,7 +111,7 @@ Vous pouvez consulter le changelog [GitHub ici][releases].
 ## Support
 
 Je ne suis pas dévellopeur, n'ai aucune formation de code, je suis simplement autodidact.
-Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
+Si vous avez une question concernant HA et ses app vous pouvez consulter:
 
 - [Le Forum communautaire francophone][hacf] de HomeAssistant
 - [Le Forum communautaire anglophone][forum] de HomeAssistant.
@@ -121,7 +121,7 @@ Si vous avez une question concernant HA et ses add-ons vous pouvez consulter:
 
 MIT License
 
-Copyright (c) 2022-2025 [Frosh][Frosh]
+Copyright (c) 2022-2026 [Frosh][Frosh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -169,8 +169,8 @@ SOFTWARE.
 > > OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 > > OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE._
 
-[add-addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_monerod
-[add-addon-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[add-app]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c751e21a_monerod
+[add-app-shield]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [add-repo]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fcasse-boubou%2Fhassio-addons
 [add-repo-shield]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
 [discord-ha]: https://discord.gg/c5DvZ4e
