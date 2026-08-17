@@ -1,5 +1,5 @@
 ## What’s changed
-**Full Changelog**: https://github.com/erdnaxela02/addon-sharry-dependency-less/compare/v3.3.0...v3.4.0
+**Full Changelog**: https://github.com/erdnaxela02/addon-sharry-dependency-less/compare/v3.3.0...v3.4.1
 
 ## 📚 Documentation
 
